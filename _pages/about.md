@@ -29,6 +29,8 @@ I am a **Lecturer at Dallas College** and recently completed my **Ph.D. in Compu
 </div>
 
 ---
+
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 
 ## 🎓 Research Profile
@@ -65,7 +67,11 @@ I am a **Lecturer at Dallas College** and recently completed my **Ph.D. in Compu
 </div>
 
 =======
->>>>>>> Stashed changes
+
+> > > > > > > # Stashed changes
+> > > > > > >
+> > > > > > > Stashed changes
+
 ---
 
 ## 🔬 Research Expertise
