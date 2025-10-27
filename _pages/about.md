@@ -12,7 +12,7 @@ profile:
     <p><i class="fas fa-map-marker-alt"></i> Dallas, Texas</p>
     <p><i class="fas fa-envelope"></i> ishihab@iastate.edu</p>
 
-news: true
+news: false
 latest_posts: false
 selected_papers: true
 social: true
@@ -62,6 +62,14 @@ I am a **Lecturer at Dallas College** and recently completed my **Ph.D. in Compu
     </div>
   </div>
 </div>
+
+---
+
+## 📰 Latest News
+
+{% if site.announcements and site.announcements.enabled -%}
+{% include news.liquid limit=true %}
+{%- endif %}
 
 ---
 
