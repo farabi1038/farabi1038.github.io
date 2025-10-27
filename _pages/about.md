@@ -20,6 +20,8 @@ social: true
 
 I am a Lecturer at Dallas College and recently completed my Ph.D. in Computer Science from Iowa State University (October 2025). My research lies at the intersection of **artificial intelligence**, **computer vision**, **Large Language Models**, and **transportation systems**, with additional expertise in **quantum computing** applications.
 
+**📄 [View my detailed GitHub README](https://github.com/farabi1038)** for additional information about my work and technical expertise.
+
 ## Research Interests
 
 My work focuses on developing AI-driven solutions for safety-critical systems, with particular emphasis on:
@@ -34,5 +36,5 @@ My work focuses on developing AI-driven solutions for safety-critical systems, w
 
 I am open to research collaborations and consulting opportunities in AI, computer vision, and transportation systems. Feel free to reach out via email or connect with me on LinkedIn!
 
-**📄 [View my detailed GitHub README](https://github.com/farabi1038)** for additional information about my work and technical expertise.
+
 
