@@ -6,6 +6,7 @@ title: Ibne Farabi Shihab # the website title (if blank, full name will be used 
 first_name: Ibne Farabi
 middle_name:
 last_name: Shihab
+tagline: Ph.D. in Computer Science | AI Researcher & Lecturer
 contact_note: >
   Feel free to reach out for research collaborations or discussions.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -64,7 +65,7 @@ max_width: 930px
 # see https://schema.org/docs/faq.html for more information
 serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: true # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+og_image: /assets/img/prof_pic.jpg # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -214,6 +215,7 @@ plugins:
   - jekyll-minifier
   - jekyll-paginate-v2
   - jekyll/scholar
+  - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-tabs
   - jekyll-toc
