@@ -96,3 +96,74 @@ enable_navbar_social: true
 
 # Theme settings
 theme_color: blue
+
+# Third party libraries (required by al-folio)
+third_party_libraries:
+  download: false
+  bootstrap-table:
+    integrity: 
+      css: "sha256-uRX+PiRTR4ysKFRCykT8HLuRCub26LgXJZym3Yeom1c="
+      js: "sha256-4rppopQS5RUMIought0hJGT/Er8VGVG1NlI/bWFxts="
+  chartjs:
+    integrity:
+      js: "sha256-Ue3vngFmk6b6oDp1XKPh0wMbVsU1E6Y/BvZWMQDaKns="
+  d3:
+    integrity:
+      js: "sha256-1rA678n2xEx7x4cTZ5x4wpUCj6kUMZEZ5cxLSVSFWxw="
+  diff2html:
+    integrity:
+      css: "sha256-IMBK4VNZp0ivwefSn51bswdsrhk0HoMTLc2GqFHFBXg="
+      js: "sha256-eU2TVHX633T1o/bTQp6iIJByYJEtZThhF9bKz/DcbbY="
+  echarts:
+    integrity:
+      js:
+        library: "sha256-QvgynZibb2U53SsVu98NggJXYqwRL7tg3FeyfXvPOUY="
+        dark_theme: "sha256-sm6Ui9w41++ZCWmIWDLC18a6ki72FQpWDiYTDxEPXwU="
+  highlightjs:
+    integrity:
+      css:
+        light: "sha256-Oppd74ucMR5a5Dq96FxjEzGF7tTw2fZ/6ksAqDCM8GY="
+        dark: "sha256-nyCNAiECsdDHrr/s2OQsp5l9XeY2ZJ0rMepjCT2AkBk="
+  imagesloaded:
+    integrity:
+      js: "sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc="
+  img-comparison-slider:
+    integrity:
+      css: "sha256-xCFeh+BdgUOpBnIAZaBaU4j5hGVi1LnF0qPwZJN7HuQ="
+      js: "sha256-7Z/fVDI1xp8MY6p0QkCHKeuLjG5dGS1Erx1K5pYi0LU="
+  jquery:
+    integrity:
+      js: "sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+  leaflet:
+    integrity:
+      css: "sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      js: "sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+  masonry:
+    integrity:
+      js: "sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI="
+  mathjax:
+    integrity:
+      js: "sha256-1yHqQqZKOxQZJFKqacRKQpfW3y0LVdGg4bO2bgEFbF8="
+  medium_zoom:
+    integrity:
+      js: "sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc="
+  mermaid:
+    integrity:
+      js: "sha256-TtLOdUA8mstPoO6sGvHIGx2ceXrrX4KgIItO06XOn8A="
+  pseudocode:
+    integrity:
+      css: "sha256-32f34RKmGq6ZGY+qlGkXxJq4lwHNOu8R3SWHTUmlDC8="
+      js: "sha256-IjYi1BTRSLNZo6AYQzjF3Ej0IzNCZb5VHvOcO4jPIZQ="
+  swiper:
+    integrity:
+      css: "sha256-yUoNxsvX+Vo8Trj3lZ/Y5ZC6mHZD2WbXkJr5U6fWKKg="
+      js: "sha256-BmO3YH0LBZhLxL3OqSXdPyEix7RNaXXLWHpAh7eL5cI="
+  vega:
+    integrity:
+      js: "sha256-Yot/cfgMMMpFwkp/5azR20Tfkt24PFqQ6IQS+80HIZs="
+  vega-embed:
+    integrity:
+      js: "sha256-ueNFOTAVyHAhdYzWytLwPlDsI/UJ/TNlVHZcdh2cP0M="
+  vega-lite:
+    integrity:
+      js: "sha256-TvBvIS5jUN4BSy009usRjNzjr9D2mJjq=hn3X3d73F5A="
