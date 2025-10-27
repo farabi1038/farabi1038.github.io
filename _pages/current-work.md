@@ -9,6 +9,16 @@ nav_order: 7
 
 ## Current Research Projects
 
+### Under Review at CVPR 2026
+
+**Language Priors Substitute Pretraining: LLM-Guided Probabilistic Fusion for Label-Efficient Document Layout Analysis**
+Novel approach using LLM structural reasoning for document layout understanding, achieving 87.3 mAP with only 5% labels on PubLayNet.
+
+**Adaptive Temporal Refinement: Learning Depth and Uncertainty for Efficient Action Localization**
+Introduces boundary-aware uncertainty estimation for temporal action localization, achieving 58.9% mAP@0.7 on THUMOS14 with 26% reduction in computation.
+
+---
+
 ### Under Review at ICLR 2026
 
 **Sparse-Reward Reinforcement Learning**
