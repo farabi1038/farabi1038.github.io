@@ -30,12 +30,7 @@ My work focuses on developing AI-driven solutions for safety-critical systems, w
 - **Quantum Neural Networks**: Pioneering quantum computing approaches for enhanced security and anomaly detection in next-generation networks
 - **Synthetic Data Generation**: Building simulation frameworks for traffic safety analysis and predictive modeling
 
-## Recent Highlights
 
-- **Multiple Conference Acceptances (2025)**: Papers accepted to ECAI, EMNLP, and ITSC
-- **Industry Experience**: Applied Scientist Internship at Amazon (Summer 2025), developing Knowledge Graph frameworks
-- **Academic Service**: Reviewer for premier conferences including CVPR, ITSC, ACM Multimedia, WACV, and ICLR
-- **Interdisciplinary Impact**: Research spanning transportation safety, biomedical engineering, and quantum computing
 
 ## Current Position
 
