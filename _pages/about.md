@@ -13,8 +13,8 @@ profile:
     <p>ishihab@iastate.edu</p>
 
 news: true
-news_scrollable: true
-news_limit: 5
+news_scrollable: false
+news_limit: 10
 
 latest_posts: false
 selected_papers: true
