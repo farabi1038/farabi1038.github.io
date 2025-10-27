@@ -19,6 +19,7 @@
   contents:
     - title: Ph.D., Computer Science
       institution: Iowa State University
+      logo: iastate-logo.png
       year: 2020 - 2025
       location: Ames, IA
       description:
@@ -28,6 +29,7 @@
 
     - title: M.S., Artificial Intelligence
       institution: Iowa State University
+      logo: iastate-logo.png
       year: 2020 - 2024
       location: Ames, IA
       description:
@@ -35,6 +37,7 @@
 
     - title: B.Sc., Computer Science and Engineering
       institution: BRAC University
+      logo: brac-logo.png
       year: 2014 - 2018
       location: Dhaka, Bangladesh
       description:
@@ -45,6 +48,7 @@
   contents:
     - title: Lecturer
       institution: Dallas College
+      logo: dallas-college-logo.png
       year: 2025 - Present
       location: Dallas, TX
       description:
@@ -55,6 +59,7 @@
 
     - title: Applied Scientist Intern
       institution: Amazon
+      logo: amazon-logo.png
       year: Summer 2025
       location: Seattle, WA
       description:
@@ -66,6 +71,7 @@
 
     - title: Graduate Research Assistant
       institution: Iowa State University
+      logo: iastate-logo.png
       year: 2022 - 2025
       location: Ames, IA
       description:
@@ -86,6 +92,7 @@
 
     - title: Graduate Teaching Assistant
       institution: Iowa State University
+      logo: iastate-logo.png
       year: 2020 - 2021
       location: Ames, IA
       description:
@@ -104,6 +111,7 @@
 
     - title: Graduate Teaching Assistant
       institution: University of Vermont
+      logo: uvm-logo.png
       year: 2019 - 2020
       location: Burlington, VT
       description:
