@@ -32,9 +32,5 @@ My work focuses on developing AI-driven solutions for safety-critical systems, w
 
 
 
-## Current Position
-
-As a Lecturer at Dallas College, I teach computer science courses and continue my research in AI and machine learning. I am passionate about making complex technical concepts accessible to students and fostering the next generation of computer scientists.
-
 I am open to research collaborations and consulting opportunities in AI, computer vision, and transportation systems. Feel free to reach out via email or connect with me on LinkedIn!
 
