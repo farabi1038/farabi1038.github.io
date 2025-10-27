@@ -280,11 +280,11 @@ I am a **Lecturer at Dallas College** and recently completed my **Ph.D. in Compu
     <div class="row">
       <div class="col-md-6 mb-3">
         <h5><i class="fas fa-lightbulb text-warning mr-2"></i>Research Areas</h5>
-        <ul class="fa-ul ml-4">
-          <li><span class="fa-li"><i class="fas fa-check-circle text-success"></i></span>Computer vision for safety-critical systems</li>
-          <li><span class="fa-li"><i class="fas fa-check-circle text-success"></i></span>LLM applications in transportation</li>
-          <li><span class="fa-li"><i class="fas fa-check-circle text-success"></i></span>Quantum machine learning</li>
-          <li><span class="fa-li"><i class="fas fa-check-circle text-success"></i></span>Reinforcement learning for real-world applications</li>
+        <ul class="list-unstyled ml-2">
+          <li class="mb-2"><i class="fas fa-check-circle text-success mr-2"></i>Computer vision for safety-critical systems</li>
+          <li class="mb-2"><i class="fas fa-check-circle text-success mr-2"></i>LLM applications in transportation</li>
+          <li class="mb-2"><i class="fas fa-check-circle text-success mr-2"></i>Quantum machine learning</li>
+          <li class="mb-2"><i class="fas fa-check-circle text-success mr-2"></i>Reinforcement learning for real-world applications</li>
         </ul>
       </div>
       
