@@ -1,11 +1,9 @@
 <div class="news">
-  {% if site.news != blank %}
-    {% assign news_size = site.news | size %}
+  {% assign news = site.news | reverse %}
+  {% if news.size > 0 %}
     <div class="table-responsive">
       <table class="table table-sm table-borderless">
-        {% assign news = site.news | reverse %}
-        {% assign news_limit = news_size %}
-        {% for item in news limit: news_limit %}
+        {% for item in news limit: 10 %}
           <tr>
             <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
             <td>
@@ -20,6 +18,6 @@
       </table>
     </div>
   {% else %}
-    <p>No news so far...</p>
+    <p>No news items found. News collection size: {{ site.news | size }}</p>
   {% endif %}
 </div>
