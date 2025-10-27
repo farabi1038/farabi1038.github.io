@@ -4,7 +4,7 @@ title: projects
 permalink: /projects/
 description: Selected research projects and collaborations
 nav: true
-nav_order: 2
+nav_order: 3
 ---
 
 ## Featured Research Projects
