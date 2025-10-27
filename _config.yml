@@ -145,20 +145,8 @@ collections:
     defaults:
       layout: post
     output: true
-    permalink: /:collection/:title/
   projects:
     output: true
-    permalink: /:collection/:title/
-
-announcements:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the _news folder
-
-latest_posts:
-  enabled: false
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -390,7 +378,7 @@ enable_bing_verification: false # enables bing site verification
 enable_masonry: true # enables automatic project cards arrangement
 enable_math: true # enables math typesetting (uses KaTeX)
 enable_tooltips: true # enables automatic tooltip links generated for each section titles on pages and posts
-enable_darkmode: false # enables switching between light/dark modes
+enable_darkmode: true # enables switching between light/dark modes
 enable_navbar_social: true # enables displaying social links in the navbar on the about page
 enable_project_categories: true # enables categorization of projects into multiple categories
 enable_medium_zoom: true # enables image zoom feature (as on medium.com)
