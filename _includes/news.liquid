@@ -1,7 +1,7 @@
-<div class="news">
+<div class="news" style="display: block !important; visibility: visible !important; opacity: 1 !important;">
   {% assign news = site.news | reverse %}
   {% if news.size > 0 %}
-    <div class="table-responsive">
+    <div class="table-responsive" style="display: block !important; visibility: visible !important;">
       <table class="table table-sm table-borderless">
         {% for item in news limit: 10 %}
           <tr>
@@ -18,6 +18,6 @@
       </table>
     </div>
   {% else %}
-    <p>No news items found. News collection size: {{ site.news | size }}</p>
+    <p>No news items found.</p>
   {% endif %}
 </div>
