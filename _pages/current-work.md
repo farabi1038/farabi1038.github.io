@@ -60,7 +60,7 @@ Actively seeking collaborations in:
 - Quantum Machine Learning
 - Transportation AI
 
-**Contact**: ishihab@iastate.edu | [LinkedIn](https://linkedin.com/in/ibne-farabi-shihab-271665bb/) | [Google Scholar](https://scholar.google.com/citations?user=L0ErrZYAAAAJ&hl=en)
+**Contact**: ishihab@iastate.edu | [LinkedIn](https://linkedin.com/in/ibne-farabi-shihab-271665bb/)
 
 ---
 
