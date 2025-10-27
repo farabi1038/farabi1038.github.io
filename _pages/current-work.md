@@ -7,7 +7,6 @@ nav: true
 nav_order: 7
 ---
 
-
 ### Under Review at CVPR 2026
 
 **Language Priors Substitute Pretraining: LLM-Guided Probabilistic Fusion for Label-Efficient Document Layout Analysis**
@@ -54,6 +53,7 @@ Comprehensive empirical study on detecting and mitigating reward hacking in RL s
 ## Open to Collaborations
 
 Actively seeking collaborations in:
+
 - Computer Vision for safety-critical applications
 - Large Language Models and novel architectures
 - Reinforcement Learning theory and practice
@@ -69,4 +69,3 @@ Actively seeking collaborations in:
 - ECAI 2025
 - EMNLP 2025 (2 papers)
 - IEEE ITSC 2025 (2 papers)
-

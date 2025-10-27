@@ -7,4 +7,3 @@ nav_order: 4
 cv_pdf: Ibne_Farabi_Shihab_Resume_Teaching.pdf
 description: Curriculum Vitae
 ---
-

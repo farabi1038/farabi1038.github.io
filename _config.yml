@@ -4,7 +4,7 @@
 
 title: Ibne Farabi Shihab # the website title (if blank, full name will be used instead)
 first_name: Ibne Farabi
-middle_name: 
+middle_name:
 last_name: Shihab
 contact_note: >
   Feel free to reach out for research collaborations or discussions.
@@ -206,7 +206,7 @@ incremental: false
 plugins:
   - jekyll-archives
   - jekyll-email-protect
-  - jekyll-feed
+  # - jekyll-feed # RSS feed disabled
   - jekyll-get-json
   - jekyll-imagemagick
   - jekyll-jupyter-notebook
@@ -253,13 +253,7 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: [
-    "formatting",
-    "images",
-    "links",
-    "math",
-    "code",
-  ] # these tags will be displayed on the front page of your blog
+display_tags: ["formatting", "images", "links", "math", "code"] # these tags will be displayed on the front page of your blog
 display_categories: ["blockquotes"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
@@ -627,7 +621,6 @@ third_party_libraries:
       css: "https://cdn.jsdelivr.net/npm/venobox@{{version}}/dist/venobox.min.css"
       js: "https://cdn.jsdelivr.net/npm/venobox@{{version}}/dist/venobox.min.js"
     version: "2.1.8"
-
 # -----------------------------------------------------------------------------
 # Get external JSON data
 # -----------------------------------------------------------------------------

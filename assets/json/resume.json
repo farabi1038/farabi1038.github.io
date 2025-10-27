@@ -108,10 +108,7 @@
       "startDate": "2021-05-01",
       "endDate": "2021-07-01",
       "summary": "Developed analytics protocols and ML models for traffic safety and urban planning.",
-      "highlights": [
-        "Improved data processing efficiency and traffic prediction accuracy",
-        "Created ML models for pedestrian movement prediction"
-      ]
+      "highlights": ["Improved data processing efficiency and traffic prediction accuracy", "Created ML models for pedestrian movement prediction"]
     },
     {
       "name": "University of Vermont",
@@ -120,9 +117,7 @@
       "startDate": "2019-08-01",
       "endDate": "2020-05-01",
       "summary": "Delivered instruction in machine learning and deep learning fundamentals.",
-      "highlights": [
-        "Developed innovative teaching materials and project-based assessments"
-      ]
+      "highlights": ["Developed innovative teaching materials and project-based assessments"]
     }
   ],
   "education": [
@@ -135,13 +130,7 @@
       "startDate": "2020-08-01",
       "endDate": "2025-10-01",
       "score": "",
-      "courses": [
-        "Artificial Intelligence",
-        "Computer Vision",
-        "Machine Learning",
-        "Reinforcement Learning",
-        "Quantum Computing"
-      ]
+      "courses": ["Artificial Intelligence", "Computer Vision", "Machine Learning", "Reinforcement Learning", "Quantum Computing"]
     },
     {
       "institution": "Iowa State University",
@@ -231,25 +220,13 @@
       "name": "Programming",
       "level": "Expert",
       "icon": "fa-solid fa-code",
-      "keywords": [
-        "Python",
-        "Java",
-        "C++",
-        "R",
-        "SQL",
-        "MATLAB"
-      ]
+      "keywords": ["Python", "Java", "C++", "R", "SQL", "MATLAB"]
     },
     {
       "name": "Research Infrastructure",
       "level": "Advanced",
       "icon": "fa-solid fa-server",
-      "keywords": [
-        "Cloud Computing (AWS)",
-        "High-Performance Computing",
-        "Data Engineering (Spark)",
-        "Version Control (Git)"
-      ]
+      "keywords": ["Cloud Computing (AWS)", "High-Performance Computing", "Data Engineering (Spark)", "Version Control (Git)"]
     }
   ],
   "languages": [
@@ -282,11 +259,7 @@
     {
       "name": "AI-Based Navigation Systems for Snowplow Operations",
       "summary": "Developed computer vision and AI systems for real-time crash detection and ADAS enhancement under extreme weather conditions for Iowa DOT.",
-      "highlights": [
-        "Real-time crash detection",
-        "ADAS enhancement",
-        "Extreme weather performance"
-      ],
+      "highlights": ["Real-time crash detection", "ADAS enhancement", "Extreme weather performance"],
       "startDate": "2022-01-01",
       "endDate": "2025-05-01",
       "url": ""
@@ -294,11 +267,7 @@
     {
       "name": "LLM-Integrated Computer Vision Framework",
       "summary": "Pioneered novel frameworks integrating computer vision with Large Language Models for automated crash narrative generation from video data.",
-      "highlights": [
-        "Automated narrative generation",
-        "Synthetic crash video simulation",
-        "Enhanced model training"
-      ],
+      "highlights": ["Automated narrative generation", "Synthetic crash video simulation", "Enhanced model training"],
       "startDate": "2023-01-01",
       "endDate": "2025-05-01",
       "url": ""
@@ -306,11 +275,7 @@
     {
       "name": "Quantum Neural Networks for Security",
       "summary": "Developed innovative Quantum Neural Network architectures that increased anomaly detection accuracy by 10% for next-generation network security.",
-      "highlights": [
-        "10% accuracy improvement",
-        "Zero trust framework",
-        "Anomaly detection"
-      ],
+      "highlights": ["10% accuracy improvement", "Zero trust framework", "Anomaly detection"],
       "startDate": "2024-01-01",
       "endDate": "2025-05-01",
       "url": ""

@@ -5,32 +5,39 @@
 ### 1. ✅ Created/Fixed All Required Pages
 
 **Homepage (about.md)**
+
 - Added your complete bio and research interests
 - Configured to show NEWS on the main page (`news: true`)
 - Displays selected papers (`selected_papers: true`)
 
 **Publications (/publications/)**
+
 - All 24 publications properly configured in BibTeX format
 - Organized by year in reverse chronological order
 
 **News (/news/)**
+
 - Dedicated news page created
 - 5 announcements already configured with your achievements
 
 **CV (/cv/)**
+
 - Complete CV data in `_data/cv.yml`
 - Education, experience, skills, publications
 - JSON resume also updated
 
 **Projects (/projects/)**
+
 - Featured research projects with detailed descriptions
 - All major work highlighted
 
 **Teaching (/teaching/)**
+
 - Complete teaching experience from Dallas College, ISU, and UVM
 - Teaching philosophy and mentorship details
 
 **Current Work (/current-work/)** ⭐ NEW
+
 - All ongoing research projects (ICLR, IEEE submissions)
 - Active collaborations
 - Open collaboration opportunities
@@ -90,6 +97,7 @@ Your site now has this clean navigation (left to right):
 ## Files Changed Summary:
 
 **Created/Updated:**
+
 - `_pages/about.md` ✓
 - `_pages/news.md` ✓
 - `_pages/teaching.md` ✓
@@ -143,4 +151,3 @@ Current Work (/current-work/)
 ## 🎉 YOU'RE ALL SET!
 
 Just commit and push to see your professional academic website live!
-

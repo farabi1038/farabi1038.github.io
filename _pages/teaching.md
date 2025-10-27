@@ -10,6 +10,7 @@ nav_order: 6
 ## Current Teaching
 
 ### Dallas College (August 2025 - Present)
+
 **Lecturer, Computer Science Department**
 
 Teaching computer science courses with focus on curriculum development, student-centered learning, and active service in departmental committees.
@@ -19,6 +20,7 @@ Teaching computer science courses with focus on curriculum development, student-
 ## Previous Teaching Experience
 
 ### Iowa State University (August 2020 - December 2021)
+
 **Graduate Teaching Assistant**
 
 Courses: Machine Learning, Deep Learning, Motion Planning for Robotics, Advanced Programming Techniques
@@ -26,6 +28,7 @@ Courses: Machine Learning, Deep Learning, Motion Planning for Robotics, Advanced
 Key contributions: Curriculum development, student mentorship, research project supervision
 
 ### University of Vermont (August 2019 - May 2020)
+
 **Graduate Teaching Assistant**
 
 Courses: Machine Learning Fundamentals, Deep Learning
@@ -39,4 +42,3 @@ I believe in making complex technical concepts accessible through hands-on learn
 ---
 
 **Contact**: ishihab@iastate.edu
-
