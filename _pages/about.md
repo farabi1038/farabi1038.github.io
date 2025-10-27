@@ -34,3 +34,5 @@ My work focuses on developing AI-driven solutions for safety-critical systems, w
 
 I am open to research collaborations and consulting opportunities in AI, computer vision, and transportation systems. Feel free to reach out via email or connect with me on LinkedIn!
 
+**📄 [View my detailed GitHub README](https://github.com/farabi1038)** for additional information about my work and technical expertise.
+
