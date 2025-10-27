@@ -13,12 +13,13 @@ profile:
     <p>ishihab@iastate.edu</p>
 
 news: true
-news_scrollable: false
-news_limit: 10
-
 latest_posts: false
 selected_papers: true
 social: true
+announcements:
+  enabled: true
+  scrollable: true
+  limit: 5
 ---
 
 I am a Lecturer at Dallas College and recently completed my Ph.D. in Computer Science from Iowa State University (October 2025). My research lies at the intersection of **artificial intelligence**, **computer vision**, **Large Language Models**, and **transportation systems**, with additional expertise in **quantum computing** applications.

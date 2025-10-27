@@ -41,33 +41,11 @@ layout: default
     <div class="clearfix">{{ content }}</div>
 
     <!-- News -->
-    {% if page.news %}
+    {% if page.news and site.announcements.enabled %}
       <h2>
         <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
       </h2>
-      <div class="news" style="display: block !important; visibility: visible !important; opacity: 1 !important; min-height: 200px;">
-        {% assign news = site.news | reverse %}
-        {% if news.size > 0 %}
-          <div class="table-responsive" style="display: block !important;">
-            <table class="table table-sm table-borderless">
-              {% for item in news limit: 10 %}
-                <tr>
-                  <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
-                  <td>
-                    {% if item.inline %}
-                      {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-                    {% else %}
-                      <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-                    {% endif %}
-                  </td>
-                </tr>
-              {% endfor %}
-            </table>
-          </div>
-        {% else %}
-          <p>No news items found.</p>
-        {% endif %}
-      </div>
+      {% include news.liquid limit=true %}
     {% endif %}
 
     <!-- Latest posts -->
