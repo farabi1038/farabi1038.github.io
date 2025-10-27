@@ -4,15 +4,15 @@
     - name: Full Name
       value: Ibne Farabi Shihab
     - name: Email
-      value: ishihab@iastate.edu
+      value: <a href="mailto:ishihab@iastate.edu">ishihab@iastate.edu</a>
     - name: Phone
       value: +1-347-571-4757
     - name: LinkedIn
-      value: <a href="https://linkedin.com/in/ibne-farabi-shihab-271665bb/">linkedin.com/in/ibne-farabi-shihab-271665bb</a>
+      value: <a href="https://linkedin.com/in/ibne-farabi-shihab-271665bb/" target="_blank"><i class="fa-brands fa-linkedin"></i> ibne-farabi-shihab</a>
     - name: GitHub
-      value: <a href="https://github.com/farabi1038">github.com/farabi1038</a>
+      value: <a href="https://github.com/farabi1038" target="_blank"><i class="fa-brands fa-github"></i> farabi1038</a>
     - name: Google Scholar
-      value: <a href="https://scholar.google.com/citations?user=L0ErrZYAAAAJ&hl=en">L0ErrZYAAAAJ</a>
+      value: <a href="https://scholar.google.com/citations?user=L0ErrZYAAAAJ&hl=en" target="_blank"><i class="ai ai-google-scholar"></i> View Profile</a>
 
 - title: Education
   type: time_table
