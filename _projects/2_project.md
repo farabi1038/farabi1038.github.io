@@ -1,81 +1,36 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
+title: LLM-Integrated Computer Vision
+description: Automated crash narrative generation from video data
 img: assets/img/3.jpg
 importance: 2
 category: work
-giscus_comments: true
+related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This pioneering research integrates Large Language Models (LLMs) with computer vision systems to automatically generate detailed crash narratives from traffic surveillance video footage.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+## Innovation
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Traditional crash reporting requires manual review of footage and writing of incident reports. This project automates the process by:
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+1. **Video Understanding**: Using advanced computer vision to detect and track vehicles, identify crash events, and extract key visual information
+2. **LLM Integration**: Leveraging video-LLMs to interpret visual data and generate human-readable narratives
+3. **Synthetic Data Generation**: Creating synthetic crash videos to enhance model training and handle rare event scenarios
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Technical Approach
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+- **Computer Vision Pipeline**: YOLOv8 for detection, ByteTrack for tracking, and custom models for crash detection
+- **Video-LLMs**: Integration with models like GPT-4V and other vision-language models
+- **Temporal Localization**: HybridMamba architecture for fine-grained temporal localization of crash events
+- **Synthetic Simulation**: CARLA and SUMO-based simulation for generating diverse crash scenarios
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+## Results
 
-{% raw %}
+- Accepted paper at TRC-30 Conference 2024
+- Ongoing work submitted to IEEE ITS Transactions
+- Framework being tested with real traffic camera footage from Iowa DOT
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+## Future Work
 
-{% endraw %}
+Expanding to handle multiple camera views, improving narrative quality, and integrating with existing crash reporting systems.

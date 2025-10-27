@@ -2,96 +2,187 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Ibne Farabi Shihab
+    - name: Email
+      value: ishihab@iastate.edu
+    - name: Phone
+      value: +1-347-571-4757
+    - name: LinkedIn
+      value: <a href="https://linkedin.com/in/ibne-farabi-shihab-271665bb/">linkedin.com/in/ibne-farabi-shihab-271665bb</a>
+    - name: GitHub
+      value: <a href="https://github.com/farabi1038">github.com/farabi1038</a>
+    - name: Google Scholar
+      value: <a href="https://scholar.google.com/citations?user=L0ErrZYAAAAJ&hl=en">L0ErrZYAAAAJ</a>
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D., Computer Science
+      institution: Iowa State University
+      year: 2025
+      location: Ames, IA
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Graduated October 2025
+        - Research focus on AI, Computer Vision, and Transportation Systems
+        - Advisor&#58; Dr. Anuj Sharma
+
+    - title: M.S., Artificial Intelligence
+      institution: Iowa State University
+      year: 2024
+      location: Ames, IA
       description:
-        - Description 1.
-        - Description 2.
+        - Graduated January 2024
+
+    - title: B.Sc., Computer Science and Engineering
+      institution: BRAC University
+      year: 2018
+      location: Dhaka, Bangladesh
+      description:
+        - Graduated August 2018
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Lecturer
+      institution: Dallas College
+      year: 2025 - Present
+      location: Dallas, TX
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Teaching computer science courses with focus on practical applications
+        - Developed enhanced curriculum and instructional materials
+        - Implemented diverse assessment methods to evaluate student learning
+        - Actively serving on departmental and college-wide committees
+
+    - title: Applied Scientist Intern
+      institution: Amazon
+      year: Summer 2025
+      location: Seattle, WA
       description:
-        - Description 1.
-        - Description 2.
+        - Developed unified Knowledge Graph framework for diverse datasets
+        - Proposed novel Knowledge Graph Embedding (KGE) model and evaluation methodology
+        - Pioneered advanced negative sampling techniques for sparse knowledge graphs
+        - Engineered intelligent model recommendation system
+        - Built comprehensive toolkit for reproducible research
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Graduate Research Assistant
+      institution: Iowa State University
+      year: 2022 - 2025
+      location: Ames, IA
       description:
+        - Led multiple funded projects with Iowa DOT on AI-based navigation systems
+        - Developed computer vision and LLM integration frameworks
+        - Created Quantum Neural Network architectures for anomaly detection
+        - Published multiple papers in premier conferences (CVPR, ECAI, EMNLP, ITSC)
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Data Scientist
+      institution: SoilSerdem
+      year: 2024
+      location: Ames, IA
+      description:
+        - Engineered precision Soil Mapping Engine improving accuracy by 35%
+        - Designed QGIS tool scripts for AWS integration
+        - Reduced infrastructure costs while increasing processing speed by 20%
+        - Led cross-departmental ML initiatives
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Graduate Teaching Assistant
+      institution: Iowa State University
+      year: 2020 - 2021
+      location: Ames, IA
+      description:
+        - Contributed to curriculum development for ML and Deep Learning courses
+        - Taught Motion Planning for Robotics and Advanced Programming Techniques
+        - Mentored undergraduate and graduate students on research projects
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: Data Engineer Intern
+      institution: Etalyc Inc.
+      year: 2021
+      location: Ames, IA
+      description:
+        - Developed analytics protocols improving data processing efficiency
+        - Created ML models for pedestrian movement prediction
+        - Generated data-driven reports for urban planning
 
-- title: Academic Interests
+    - title: Graduate Teaching Assistant
+      institution: University of Vermont
+      year: 2019 - 2020
+      location: Burlington, VT
+      description:
+        - Delivered instruction in machine learning and deep learning
+        - Developed innovative teaching materials and project-based assessments
+
+- title: Research Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Computer Vision & Video Analytics
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Crash detection and temporal action localization
+        - Traffic analysis using state-of-the-art deep learning
+        - ADAS enhancement under extreme weather conditions
+    - title: Large Language Models
       items:
-        - Description 1.
-        - Description 2.
+        - Integration with computer vision for automated narrative generation
+        - LLM-derived priors for reinforcement learning
+        - Efficient model pruning for resource-constrained environments
+    - title: Reinforcement Learning
+      items:
+        - Autonomous vehicle control and decision making
+        - Cache-efficient posterior sampling
+        - Reward structure analysis for sparse-reward learning
+    - title: Quantum Computing
+      items:
+        - Quantum Neural Networks for security and privacy
+        - Anomaly detection in next-generation networks
+        - Few-shot learning for quantum spin systems
+    - title: Synthetic Data & Simulation
+      items:
+        - Traffic safety analysis and predictive modeling
+        - Crash video simulation for model training
 
-- title: Other Interests
+- title: Academic Service
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <b>Conference Reviewer:</b> IEEE/CVF CVPR (2024, 2025), IEEE ITSC (2023-2025), ACM Multimedia (2025), WACV (2026), ICLR (2026)
+    - <b>Graduate Student Representative:</b> Iowa State University Computer Science Committee (2022-2023)
+    - <b>Committee Member:</b> University of Vermont Graduate Senate Education Committee (2019-2020)
+    - <b>Judge:</b> 2025 State Science & Technology Fair of Iowa (SSTFI)
+
+- title: Technical Skills
+  type: nested_list
+  contents:
+    - title: AI & Machine Learning
+      items:
+        - Deep Learning (PyTorch, Keras, TensorFlow)
+        - Reinforcement Learning (Ray, RLlib)
+        - Computer Vision (OpenCV, YOLO, Detectron2)
+        - Large Language Models (GPT, BERT, LLaMA)
+        - Generative AI (GANs, Diffusion Models)
+    - title: Specialized Expertise
+      items:
+        - Traffic Simulation (SUMO, CARLA)
+        - Quantum Neural Networks (torchquantum, Qiskit, PennyLane)
+        - Knowledge Graph Embedding
+        - Environmental Data Analysis
+    - title: Programming Languages
+      items:
+        - Python, Java, C++, R, SQL, MATLAB
+    - title: Research Infrastructure
+      items:
+        - Cloud Computing (AWS, Azure)
+        - High-Performance Computing
+        - Data Engineering (Spark, Hadoop)
+        - Version Control (Git, GitHub)
+        - Docker, Kubernetes
+
+- title: Selected Honors & Awards
+  type: time_table
+  contents:
+    - year: 2025
+      items:
+        - 5 papers accepted to premier conferences (ECAI, EMNLP, ITSC)
+    - year: 2024
+      items:
+        - Paper accepted to IEEE/CVF CVPR
+        - Published in Biotechnology and Bioengineering
+    - year: 2023
+      items:
+        - Paper accepted to IEEE ITSC
