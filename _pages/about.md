@@ -304,7 +304,7 @@ I am a **Lecturer at Dallas College** and recently completed my **Ph.D. in Compu
         <i class="fas fa-envelope"></i> Email Me
       </a>
       <a href="https://github.com/farabi1038" class="btn btn-outline-primary btn-lg">
-        <i class="fab fa-github"></i> View Detailed GitHub README
+        <i class="fab fa-github"></i> More Details
       </a>
     </div>
   </div>
