@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-05-01
+date: 2025-07-11
 inline: true
 related_posts: false
 ---
 
-Three papers accepted to major conferences: ECAI 2025 and EMNLP 2025 (2 papers)! :tada:
+Paper accepted to ECAI 2025 on self-supervised few-shot learning for quantum spin systems! :tada:
