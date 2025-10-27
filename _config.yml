@@ -145,8 +145,15 @@ collections:
     defaults:
       layout: post
     output: true
+    permalink: /:collection/:title/
   projects:
     output: true
+    permalink: /:collection/:title/
+
+announcements:
+  enabled: true
+  scrollable: true
+  limit: 5
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
