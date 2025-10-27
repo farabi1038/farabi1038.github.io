@@ -1,6 +1,6 @@
 ---
 layout: page
-title: News
+title: news
 permalink: /news/
 description: Latest updates and announcements
 nav: true
