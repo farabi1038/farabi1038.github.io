@@ -30,9 +30,6 @@ I am a **Lecturer at Dallas College** and recently completed my **Ph.D. in Compu
 
 ---
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-
 ## 🎓 Research Profile
 
 <div class="card shadow-sm mb-4">
@@ -66,12 +63,6 @@ I am a **Lecturer at Dallas College** and recently completed my **Ph.D. in Compu
   </div>
 </div>
 
-=======
-
-> > > > > > > # Stashed changes
-> > > > > > >
-> > > > > > > Stashed changes
-
 ---
 
 ## 🔬 Research Expertise
@@ -80,7 +71,7 @@ I am a **Lecturer at Dallas College** and recently completed my **Ph.D. in Compu
   <div class="col-md-6 mb-4">
     <div class="card h-100 shadow-sm hover-card">
       <div class="card-header bg-primary text-white">
-        <h3 class="mb-0"><i class="fas fa-brain"></i> Core Technologies</h3>
+        <h3 class="mb-0"><i class="fas fa-brain mr-2"></i>Core Technologies</h3>
       </div>
       <div class="card-body">
         <div class="expertise-item">
@@ -134,7 +125,7 @@ I am a **Lecturer at Dallas College** and recently completed my **Ph.D. in Compu
   <div class="col-md-6 mb-4">
     <div class="card h-100 shadow-sm hover-card">
       <div class="card-header bg-danger text-white">
-        <h3 class="mb-0"><i class="fas fa-flask"></i> Applied Domains</h3>
+        <h3 class="mb-0"><i class="fas fa-flask mr-2"></i>Applied Domains</h3>
       </div>
       <div class="card-body">
         <div class="expertise-item">
@@ -283,12 +274,12 @@ I am a **Lecturer at Dallas College** and recently completed my **Ph.D. in Compu
 <div class="card shadow-lg mt-4 collab-card">
   <div class="card-body">
     <h4 class="card-title text-center mb-4">
-      <i class="fas fa-handshake text-primary"></i> Let's Work Together
+      <i class="fas fa-handshake text-primary mr-2"></i>Let's Work Together
     </h4>
     
     <div class="row">
       <div class="col-md-6 mb-3">
-        <h5><i class="fas fa-lightbulb text-warning"></i> Research Areas</h5>
+        <h5><i class="fas fa-lightbulb text-warning mr-2"></i>Research Areas</h5>
         <ul class="fa-ul ml-4">
           <li><span class="fa-li"><i class="fas fa-check-circle text-success"></i></span>Computer vision for safety-critical systems</li>
           <li><span class="fa-li"><i class="fas fa-check-circle text-success"></i></span>LLM applications in transportation</li>
@@ -298,7 +289,7 @@ I am a **Lecturer at Dallas College** and recently completed my **Ph.D. in Compu
       </div>
       
       <div class="col-md-6 mb-3">
-        <h5><i class="fas fa-briefcase text-info"></i> Opportunities</h5>
+        <h5><i class="fas fa-briefcase text-info mr-2"></i>Opportunities</h5>
         <div class="opportunity-tags">
           <span class="badge badge-primary badge-lg mb-2"><i class="fas fa-flask"></i> Research Collaborations</span>
           <span class="badge badge-info badge-lg mb-2"><i class="fas fa-handshake"></i> Consulting Projects</span>
