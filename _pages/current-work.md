@@ -9,44 +9,67 @@ nav_order: 7
 
 ### Under Review at CVPR 2026
 
-**Language Priors Substitute Pretraining: LLM-Guided Probabilistic Fusion for Label-Efficient Document Layout Analysis**
-Novel approach using LLM structural reasoning for document layout understanding.
+**LLM-Guided Probabilistic Fusion for Label-Efficient Document Layout Analysis**  
+[arXiv:2511.08903](https://arxiv.org/abs/2511.08903)
 
-**Adaptive Temporal Refinement: Learning Depth and Uncertainty for Efficient Action Localization**
-Introduces boundary-aware uncertainty estimation for temporal action localization.
+**Temporal Zoom Networks: Distance Regression and Continuous Depth for Efficient Action Localization**  
+[arXiv:2511.03943](https://arxiv.org/abs/2511.03943)
 
 ---
 
 ### Under Review at ICLR 2026
 
-**Sparse-Reward Reinforcement Learning**
-Investigating fundamental structures in reward functions for efficient learning in sparse-reward environments.
+**Selective Risk Certification for LLM Outputs via Information-Lift Statistics: PAC-Bayes, Robustness, and Skeleton Design** (with Sanjeda Akter)  
+[arXiv:2509.12527](https://arxiv.org/abs/2509.12527)
 
-**Differentiable Entropy Regularization**
-Novel approaches to entropy regularization for geometric problems and neural network optimization.
+**What Fundamental Structure in Reward Functions Enables Efficient Sparse-Reward Learning?**  
+[arXiv:2509.03790](https://arxiv.org/abs/2509.03790)
 
-**Counterfactual Reasoning in LLMs** (with Sanjeda Akter)
+**Differentiable Entropy Regularization for Geometry and Neural Networks**  
+[arXiv:2509.03733](https://arxiv.org/abs/2509.03733)
+
+**Counterfactual Reasoning in LLMs** (with Sanjeda Akter)  
 Exploring counterfactual sensitivity for faithful reasoning in large language models.
 
-**Risk Certification for LLM Outputs** (with Sanjeda Akter)
-Selective risk certification using information-lift statistics with PAC-Bayes framework.
+---
+
+### Planning for ACL 2026
+
+**Valid Stopping for LLM Generation via Empirical Dynamic Formal Lift** (with Sanjeda Akter)  
+[arXiv:2510.06478](https://arxiv.org/abs/2510.06478)
+
+**Inducing Faithfulness in Structured Reasoning via Counterfactual Sensitivity** (with Sanjeda Akter)  
+[arXiv:2509.01544](https://arxiv.org/abs/2509.01544)
 
 ---
 
 ### Under Review at IEEE ITS Transactions
 
-**Temporal Localization in Traffic Videos**
-HybridMamba architecture for fine-grained crash detection in surveillance footage.
+**Calibrated and Resource-Aware Super-Resolution for Reliable Driver Behavior Analysis**  
+[arXiv:2509.23535](https://arxiv.org/abs/2509.23535)
 
-**LLM-Driven Image Segmentation Survey** (with Sanjeda Akter)
-Comprehensive survey on image segmentation with LLMs for intelligent transportation systems.
+**Image Segmentation with Large Language Models: A Survey with Perspectives for Intelligent Transportation Systems** (with Sanjeda Akter)  
+[arXiv:2506.14096](https://arxiv.org/abs/2506.14096)
+
+**Enhancing Traffic Incident Response through Sub-Second Temporal Localization with HybridMamba**  
+[arXiv:2504.03235](https://arxiv.org/abs/2504.03235)
 
 ---
 
-### Under Review at ICSE 2026
+### Under Review at Journal of Safety Research
 
-**Reward Hacking Detection**
-Comprehensive empirical study on detecting and mitigating reward hacking in RL systems.
+**Unlocking Insights Addressing Alcohol Inference Mismatch through Database-Narrative Alignment** (with Sudesh Bhagat, Raghupathi Kandiboina, Skylar Knickerbocker, Neal Hawkins, and Anuj Sharma)  
+[arXiv:2506.19342](https://arxiv.org/abs/2506.19342)
+
+---
+
+### Preprints
+
+**Detecting and Mitigating Reward Hacking in Reinforcement Learning Systems: A Comprehensive Empirical Study**  
+[arXiv:2507.05619](https://arxiv.org/abs/2507.05619)
+
+**Large Language Models for Crash Detection in Video: A Survey of Methods, Datasets, and Challenges** (with Sanjeda Akter)  
+[arXiv:2507.02074](https://arxiv.org/abs/2507.02074)
 
 ---
 
