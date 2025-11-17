@@ -1,45 +1,59 @@
 ---
 ---
 
-@article{shihab2025hmae,
+@inproceedings{shihab2025hmae,
   title={HMAE: Self-Supervised Few-Shot Learning for Quantum Spin Systems},
   author={Shihab, Ibne Farabi and Akter, Sanjeda and Sharma, Anuj},
-  journal={arXiv preprint arXiv:2505.03140},
+  booktitle={ECAI 2025 -- 27th European Conference on Artificial Intelligence},
+  series={Frontiers in Artificial Intelligence and Applications},
+  volume={413},
+  pages={1961--1968},
+  publisher={IOS Press},
   year={2025},
-  note={Accepted to ECAI 2025},
-  abbr={ECAI},
+  doi={10.3233/FAIA251031},
   selected={true},
-  preview={ecai-logo.png},
-  arxiv={2505.03140}
+  preview={ecai-logo.png}
 }
 
-@article{shihab2025pruning,
+@inproceedings{shihab-etal-2025-efficient,
   title={Efficient Unstructured Pruning of Mamba State-Space Models for Resource-Constrained Environments},
   author={Shihab, Ibne Farabi and Akter, Sanjeda and Sharma, Anuj},
-  journal={arXiv preprint arXiv:2505.08299},
+  editor={Christodoulopoulos, Christos and Chakraborty, Tanmoy and Rose, Carolyn and Peng, Violet},
+  booktitle={Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing},
+  month=nov,
   year={2025},
-  note={Accepted to EMNLP 2025},
-  abbr={EMNLP},
+  address={Suzhou, China},
+  publisher={Association for Computational Linguistics},
+  url={https://aclanthology.org/2025.emnlp-main.562/},
+  doi={10.18653/v1/2025.emnlp-main.562},
+  pages={11109--11137},
+  isbn={979-8-89176-332-6},
+  abstract={As the deployment of AI models shifts towards edge devices, developing efficient sequence models has become critical. State-space models (SSMs), particularly Mamba, have emerged as strong rivals to Transformers due to their linear-time complexity and impressive performance across a range of tasks. However, their large parameter counts still hinder their use in resource-constrained environments. To address this, we propose a novel unstructured pruning framework specifically tailored for Mamba, achieving up to 70\% parameter reduction with only a 3--9\% drop in performance. Unlike pruning techniques designed for Transformers, our approach leverages Mamba's unique recurrent dynamics by incorporating pruning based on both weight and gradient importance to preserve critical parameters, a gradual pruning schedule to maintain model stability, and a global strategy to optimize parameter allocation across the model. Extensive experiments on the WikiText-103, Long Range Arena, and ETT benchmarks demonstrate significant efficiency gains, including 1.77× faster inference and a 46\% reduction in memory usage. Our component analysis confirms Mamba's robustness to pruning, highlighting the framework's potential for enabling practical deployment while underscoring the need for careful evaluation to avoid introducing biases in sensitive applications.},
   selected={true},
-  preview={emnlp-logo.png},
-  arxiv={2505.08299}
+  preview={emnlp-logo.png}
 }
 
-@article{shihab2025cache,
-  title={Cache-Efficient Posterior Sampling for Reinforcement Learning with LLM-Derived Priors Across Discrete and Continuous Domains},
+@inproceedings{shihab-etal-2025-cache,
+  title={Cache-Efficient Posterior Sampling for Reinforcement Learning with {LLM}-Derived Priors Across Discrete and Continuous Domains},
   author={Shihab, Ibne Farabi and Akter, Sanjeda and Sharma, Anuj},
-  journal={arXiv preprint arXiv:2505.07274},
+  editor={Christodoulopoulos, Christos and Chakraborty, Tanmoy and Rose, Carolyn and Peng, Violet},
+  booktitle={Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing},
+  month=nov,
   year={2025},
-  note={Accepted to EMNLP 2025},
-  abbr={EMNLP},
+  address={Suzhou, China},
+  publisher={Association for Computational Linguistics},
+  url={https://aclanthology.org/2025.emnlp-main.560/},
+  doi={10.18653/v1/2025.emnlp-main.560},
+  pages={11062--11090},
+  isbn={979-8-89176-332-6},
+  abstract={Integrating large language models (LLMs) as action proposers in reinforcement learning (RL) significantly boosts performance in text-based environments but incurs prohibitive computational costs. We introduce a cache-efficient framework for Bayesian RL that leverages LLM-derived action suggestions, drastically reducing these costs while maintaining near-optimal performance. Our approach features an adaptive caching mechanism, optimized via meta-learning based on policy performance, to enable efficient inference across text-based games (e.g., TextWorld, ALFWorld) and robotic control tasks (e.g., MuJoCo, MetaWorld). This framework achieves a 3.8×--4.7× reduction in LLM queries and 4.0×--12.0× lower median latencies (85--93ms on consumer hardware), while retaining 96--98\% of the uncached policy's performance. We provide theoretical guarantees on the reliability of cached decisions with Kullback-Leibler (KL) divergence bounds, which are validated empirically by high success rates (90.4--95.6\%) in complex text environments. For offline RL, our proposed CQL-Prior variant improves performance by 14--29\% and reduces training time by 38--40\%. Evaluations across eight diverse tasks demonstrate the framework's generalizability and practicality for resource-constrained settings, making LLM-guided RL a viable and accessible approach for both text-based and robotic applications.},
   selected={true},
-  preview={emnlp-logo.png},
-  arxiv={2505.07274}
+  preview={emnlp-logo.png}
 }
 
 @article{sivaraman2025clearvision,
   title={ClearVision: Leveraging CycleGAN and SigLIP-2 for Robust All-Weather Classification in Traffic Camera Imagery},
-  author={Sivaraman, Ashwin L. and Adu-Gyamfi, Kwadwo and Shihab, Ibne Farabi and Sharma, Anuj},
+  author={Sivaraman, Anush L. and Adu-Gyamfi, Kwadwo and Shihab, Ibne Farabi and Sharma, Anuj},
   journal={arXiv preprint arXiv:2504.19684},
   year={2025},
   note={Accepted to ITSC 2025},
