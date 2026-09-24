@@ -16,21 +16,13 @@ Working on agentic bot systems.
 
 ### Under Review at NeurIPS 2026
 
-**Sparsifying Correlation Clustering: Edge Coresets, Triangle Witnesses, and Observation Lower Bounds** (with Sanjeda Akter, Anuj Sharma)  
-[arXiv:2602.13684](https://arxiv.org/abs/2602.13684)
-
 **Exclusivity Without Marginal Loss: A Coupled-Rounding Primitive and Full-LP Obstruction for Chromatic Correlation Clustering** (with Sanjeda Akter, Anuj Sharma)
 
 **Topology-Aware State Abstraction with Tangle Cores for Markov Decision Processes** (with Sanjeda Akter, Anuj Sharma)
 
-**Coverage-Based Calibration for Post-Training Quantization via Weighted Maximum Coverage over Outlier Channels** (with Sanjeda Akter, Anuj Sharma)
-
 **Continual Calibration: Coverage Can Collapse Before Accuracy in Lifelong LLM Fine-Tuning** (with Sanjeda Akter, Anuj Sharma)
 
 **Audit-Certified Conformal Routing for Reliable Hybrid Training** (with Sanjeda Akter, Anuj Sharma)
-
-**Differentiable Range-Partition Entropy for Entropy-Sensitive Geometric Algorithms** (with Sanjeda Akter, Anuj Sharma)  
-[arXiv:2509.03733](https://arxiv.org/abs/2509.03733)
 
 **Concentration-Scaled Grassmannian Routing for Controllable Mixture-of-Experts** (with Sanjeda Akter, Anuj Sharma)  
 [arXiv:2602.17798](https://arxiv.org/abs/2602.17798)

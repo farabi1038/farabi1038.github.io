@@ -1,6 +1,10 @@
 # Conference and venue configurations
 # Add colors and URLs for publication badges
 
+"NeurIPS":
+  url: https://neurips.cc/
+  color: "#6a1b9a"
+
 "ECAI":
   url: https://www.ecai2024.eu/
   color: "#0076df"

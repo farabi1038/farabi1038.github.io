@@ -168,6 +168,27 @@
   ],
   "publications": [
     {
+      "name": "Sparsifying Correlation Clustering: Edge Coresets, Triangle Witnesses, and Observation Lower Bounds",
+      "publisher": "NeurIPS 2026",
+      "releaseDate": "2026",
+      "url": "https://arxiv.org/abs/2602.13684",
+      "summary": "Accepted to NeurIPS 2026 (Poster)"
+    },
+    {
+      "name": "Coverage-Based Calibration for Post-Training Quantization via Weighted Maximum Coverage over Outlier Channels",
+      "publisher": "NeurIPS 2026",
+      "releaseDate": "2026",
+      "url": "",
+      "summary": "Accepted to NeurIPS 2026 (Poster)"
+    },
+    {
+      "name": "Differentiable Range-Partition Entropy for Entropy-Sensitive Geometric Algorithms",
+      "publisher": "NeurIPS 2026",
+      "releaseDate": "2026",
+      "url": "https://arxiv.org/abs/2509.03733",
+      "summary": "Accepted to NeurIPS 2026 (Poster)"
+    },
+    {
       "name": "EST-PRM: Stress-Testing Process Reward Models Before They Become Load-Bearing",
       "publisher": "EMNLP 2026 Main Conference",
       "releaseDate": "2026",
