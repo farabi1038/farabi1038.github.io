@@ -14,7 +14,7 @@ Working on agentic bot systems.
 
 ---
 
-### Under Review at NeurIPS 2026
+### Under Submission at ICLR 2027
 
 **Exclusivity Without Marginal Loss: A Coupled-Rounding Primitive and Full-LP Obstruction for Chromatic Correlation Clustering** (with Sanjeda Akter, Anuj Sharma)
 
@@ -28,6 +28,10 @@ Working on agentic bot systems.
 [arXiv:2602.17798](https://arxiv.org/abs/2602.17798)
 
 **Auditing Near-Optimal Policies Can Be Exponentially Hard: Conditional Query Lower Bounds via Occupancy Rashomon Capacity** (with Sanjeda Akter, Anuj Sharma)
+
+---
+
+### Planned for ICML 2027
 
 **Minimax Round Complexity of Distributed Offline Dynamic Programming: Discounted Locality, Bit-Radius Tradeoffs, and Gossip Baselines** (solo)
 
