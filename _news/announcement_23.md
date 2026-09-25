@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-3 papers accepted at NeurIPS 2026 (poster)—[Sparsifying Correlation Clustering](https://arxiv.org/abs/2602.13684), _Coverage-Based Calibration for Post-Training Quantization_ (arXiv coming soon), and [Differentiable Range-Partition Entropy](https://arxiv.org/abs/2509.03733)! :tada:
+3 papers accepted at NeurIPS 2026 (poster)—[Sparsifying Correlation Clustering](https://arxiv.org/abs/2602.13684), [Coverage-Based Calibration for Post-Training Quantization](https://arxiv.org/abs/2604.24008), and [Differentiable Range-Partition Entropy](https://arxiv.org/abs/2509.03733)! :tada:
