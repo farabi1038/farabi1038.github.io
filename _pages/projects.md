@@ -105,4 +105,4 @@ I am actively seeking collaborations in:
 - Quantum machine learning
 - Reinforcement learning for real-world applications
 
-**Contact**: ishihab@iastate.edu
+**Contact**: ibnfarabishihab@gmail.com

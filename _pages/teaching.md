@@ -55,4 +55,4 @@ I believe in making complex technical concepts accessible through hands-on learn
 
 ---
 
-**Contact**: ishihab@iastate.edu
+**Contact**: ibnfarabishihab@gmail.com

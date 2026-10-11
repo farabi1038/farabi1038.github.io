@@ -10,7 +10,7 @@ profile:
   image_circular: false
   more_info: >
     <p><i class="fas fa-map-marker-alt"></i> Sunnyvale, California</p>
-    <p><i class="fas fa-envelope"></i> ishihab@iastate.edu</p>
+    <p><i class="fas fa-envelope"></i> ibnfarabishihab@gmail.com</p>
 
 news: false
 latest_posts: false
@@ -308,7 +308,7 @@ I am a **Applied Scientist in Amazon** and recently completed my **Ph.D. in Comp
     </div>
     
     <div class="text-center mt-4 pt-3 border-top">
-      <a href="mailto:ishihab@iastate.edu" class="btn btn-primary btn-lg mr-3">
+      <a href="mailto:ibnfarabishihab@gmail.com" class="btn btn-primary btn-lg mr-3">
         <i class="fas fa-envelope"></i> Email Me
       </a>
       <a href="https://github.com/farabi1038" class="btn btn-outline-primary btn-lg">

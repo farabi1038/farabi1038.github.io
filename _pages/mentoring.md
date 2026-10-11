@@ -193,4 +193,4 @@ If you are interested in collaborating or being mentored on research in computer
 
 ---
 
-**Contact**: ishihab@iastate.edu | [LinkedIn](https://linkedin.com/in/ibne-farabi-shihab-271665bb/)
+**Contact**: ibnfarabishihab@gmail.com | [LinkedIn](https://linkedin.com/in/ibne-farabi-shihab-271665bb/)
