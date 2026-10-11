@@ -12,7 +12,7 @@
     - name: GitHub
       value: <a href="https://github.com/farabi1038" target="_blank"><i class="fa-brands fa-github"></i> farabi1038</a>
     - name: Google Scholar
-      value: <a href="https://scholar.google.com/citations?user=L0ErrZYAAAAJ&hl=en" target="_blank"><i class="ai ai-google-scholar"></i> View Profile</a>
+      value: <a href="https://scholar.google.com/citations?user=Q4heWQYAAAAJ&hl=en" target="_blank"><i class="ai ai-google-scholar"></i> View Profile</a>
 
 - title: Education
   type: time_table
