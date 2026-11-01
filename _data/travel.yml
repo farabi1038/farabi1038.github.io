@@ -1,0 +1,129 @@
+# Travel log for the /travel/ page (_pages/travel.md).
+# Every count, percentage, list, and map layer on that page is built from this file,
+# so recording a new visit only means changing that entry's `visited` flag to true.
+#
+# states: the 50 U.S. states (DC is not counted). `code` is the USPS abbreviation the map uses.
+# national_parks: all 64 U.S. national parks. Names, states/territories, and coordinates
+# (approximate park centers) come from Wikipedia, "List of national parks of the United States",
+# revision 1383110273 (2026-11-01):
+# https://en.wikipedia.org/w/index.php?title=List_of_national_parks_of_the_United_States&oldid=1383110273
+# Chiricahua (Arizona) became the 64th national park on October 20, 2026 (nps.gov/chir).
+# Parks marked `territory: true` lie outside the 50-state map and are listed below it instead.
+
+states:
+  - { name: Alabama, code: AL, visited: false }
+  - { name: Alaska, code: AK, visited: false }
+  - { name: Arizona, code: AZ, visited: true }
+  - { name: Arkansas, code: AR, visited: false }
+  - { name: California, code: CA, visited: true }
+  - { name: Colorado, code: CO, visited: true }
+  - { name: Connecticut, code: CT, visited: true }
+  - { name: Delaware, code: DE, visited: true }
+  - { name: Florida, code: FL, visited: false }
+  - { name: Georgia, code: GA, visited: false }
+  - { name: Hawaii, code: HI, visited: false }
+  - { name: Idaho, code: ID, visited: true }
+  - { name: Illinois, code: IL, visited: true }
+  - { name: Indiana, code: IN, visited: true }
+  - { name: Iowa, code: IA, visited: true }
+  - { name: Kansas, code: KS, visited: true }
+  - { name: Kentucky, code: KY, visited: false }
+  - { name: Louisiana, code: LA, visited: false }
+  - { name: Maine, code: ME, visited: false }
+  - { name: Maryland, code: MD, visited: true }
+  - { name: Massachusetts, code: MA, visited: true }
+  - { name: Michigan, code: MI, visited: true }
+  - { name: Minnesota, code: MN, visited: true }
+  - { name: Mississippi, code: MS, visited: true }
+  - { name: Missouri, code: MO, visited: true }
+  - { name: Montana, code: MT, visited: true }
+  - { name: Nebraska, code: NE, visited: true }
+  - { name: Nevada, code: NV, visited: true }
+  - { name: New Hampshire, code: NH, visited: true }
+  - { name: New Jersey, code: NJ, visited: true }
+  - { name: New Mexico, code: NM, visited: true }
+  - { name: New York, code: NY, visited: true }
+  - { name: North Carolina, code: NC, visited: true }
+  - { name: North Dakota, code: ND, visited: false }
+  - { name: Ohio, code: OH, visited: true }
+  - { name: Oklahoma, code: OK, visited: true }
+  - { name: Oregon, code: OR, visited: true }
+  - { name: Pennsylvania, code: PA, visited: true }
+  - { name: Rhode Island, code: RI, visited: true }
+  - { name: South Carolina, code: SC, visited: false }
+  - { name: South Dakota, code: SD, visited: true }
+  - { name: Tennessee, code: TN, visited: true }
+  - { name: Texas, code: TX, visited: true }
+  - { name: Utah, code: UT, visited: true }
+  - { name: Vermont, code: VT, visited: true }
+  - { name: Virginia, code: VA, visited: true }
+  - { name: Washington, code: WA, visited: true }
+  - { name: West Virginia, code: WV, visited: false }
+  - { name: Wisconsin, code: WI, visited: true }
+  - { name: Wyoming, code: WY, visited: true }
+
+national_parks:
+  - { name: Acadia, states: [Maine], lat: 44.35, lon: -68.21, visited: false }
+  - { name: National Park of American Samoa, states: [American Samoa], lat: -14.25, lon: -170.68, visited: false, territory: true }
+  - { name: Arches, states: [Utah], lat: 38.68, lon: -109.57, visited: true }
+  - { name: Badlands, states: [South Dakota], lat: 43.75, lon: -102.5, visited: false }
+  - { name: Big Bend, states: [Texas], lat: 29.25, lon: -103.25, visited: true }
+  - { name: Biscayne, states: [Florida], lat: 25.65, lon: -80.08, visited: false }
+  - { name: Black Canyon of the Gunnison, states: [Colorado], lat: 38.57, lon: -107.72, visited: true }
+  - { name: Bryce Canyon, states: [Utah], lat: 37.57, lon: -112.18, visited: true }
+  - { name: Canyonlands, states: [Utah], lat: 38.2, lon: -109.93, visited: false }
+  - { name: Capitol Reef, states: [Utah], lat: 38.2, lon: -111.17, visited: false }
+  - { name: Carlsbad Caverns, states: [New Mexico], lat: 32.17, lon: -104.44, visited: true }
+  - { name: Channel Islands, states: [California], lat: 34.01, lon: -119.42, visited: false }
+  - { name: Chiricahua, states: [Arizona], lat: 32.02, lon: -109.35, visited: false }
+  - { name: Congaree, states: [South Carolina], lat: 33.78, lon: -80.78, visited: false }
+  - { name: Crater Lake, states: [Oregon], lat: 42.94, lon: -122.1, visited: true }
+  - { name: Cuyahoga Valley, states: [Ohio], lat: 41.24, lon: -81.55, visited: false }
+  - { name: Death Valley, states: [California, Nevada], lat: 36.24, lon: -116.82, visited: true }
+  - { name: Denali, states: [Alaska], lat: 63.33, lon: -150.5, visited: false }
+  - { name: Dry Tortugas, states: [Florida], lat: 24.63, lon: -82.87, visited: false }
+  - { name: Everglades, states: [Florida], lat: 25.32, lon: -80.93, visited: false }
+  - { name: Gates of the Arctic, states: [Alaska], lat: 67.78, lon: -153.3, visited: false }
+  - { name: Gateway Arch, states: [Missouri], lat: 38.63, lon: -90.19, visited: true }
+  - { name: Glacier, states: [Montana], lat: 48.8, lon: -114.0, visited: true }
+  - { name: Glacier Bay, states: [Alaska], lat: 58.5, lon: -137.0, visited: false }
+  - { name: Grand Canyon, states: [Arizona], lat: 36.06, lon: -112.14, visited: true }
+  - { name: Grand Teton, states: [Wyoming], lat: 43.73, lon: -110.8, visited: false }
+  - { name: Great Basin, states: [Nevada], lat: 38.98, lon: -114.3, visited: false }
+  - { name: Great Sand Dunes, states: [Colorado], lat: 37.73, lon: -105.51, visited: false }
+  - { name: Great Smoky Mountains, states: [North Carolina, Tennessee], lat: 35.68, lon: -83.53, visited: false }
+  - { name: Guadalupe Mountains, states: [Texas], lat: 31.92, lon: -104.87, visited: true }
+  - { name: Haleakalā, states: [Hawaii], lat: 20.72, lon: -156.17, visited: false }
+  - { name: Hawaiʻi Volcanoes, states: [Hawaii], lat: 19.38, lon: -155.2, visited: false }
+  - { name: Hot Springs, states: [Arkansas], lat: 34.51, lon: -93.05, visited: false }
+  - { name: Indiana Dunes, states: [Indiana], lat: 41.6533, lon: -87.0524, visited: false }
+  - { name: Isle Royale, states: [Michigan], lat: 48.1, lon: -88.55, visited: false }
+  - { name: Joshua Tree, states: [California], lat: 33.79, lon: -115.9, visited: true }
+  - { name: Katmai, states: [Alaska], lat: 58.5, lon: -155.0, visited: false }
+  - { name: Kenai Fjords, states: [Alaska], lat: 59.92, lon: -149.65, visited: false }
+  - { name: Kings Canyon, states: [California], lat: 36.8, lon: -118.55, visited: true }
+  - { name: Kobuk Valley, states: [Alaska], lat: 67.55, lon: -159.28, visited: false }
+  - { name: Lake Clark, states: [Alaska], lat: 60.97, lon: -153.42, visited: false }
+  - { name: Lassen Volcanic, states: [California], lat: 40.49, lon: -121.51, visited: true }
+  - { name: Mammoth Cave, states: [Kentucky], lat: 37.18, lon: -86.1, visited: false }
+  - { name: Mesa Verde, states: [Colorado], lat: 37.18, lon: -108.49, visited: false }
+  - { name: Mount Rainier, states: [Washington], lat: 46.85, lon: -121.75, visited: true }
+  - { name: New River Gorge, states: [West Virginia], lat: 38.07, lon: -81.08, visited: false }
+  - { name: North Cascades, states: [Washington], lat: 48.7, lon: -121.2, visited: true }
+  - { name: Olympic, states: [Washington], lat: 47.97, lon: -123.5, visited: true }
+  - { name: Petrified Forest, states: [Arizona], lat: 35.07, lon: -109.78, visited: false }
+  - { name: Pinnacles, states: [California], lat: 36.48, lon: -121.16, visited: true }
+  - { name: Redwood, states: [California], lat: 41.3, lon: -124.0, visited: true }
+  - { name: Rocky Mountain, states: [Colorado], lat: 40.4, lon: -105.58, visited: true }
+  - { name: Saguaro, states: [Arizona], lat: 32.25, lon: -110.5, visited: false }
+  - { name: Sequoia, states: [California], lat: 36.43, lon: -118.68, visited: true }
+  - { name: Shenandoah, states: [Virginia], lat: 38.53, lon: -78.35, visited: true }
+  - { name: Theodore Roosevelt, states: [North Dakota], lat: 46.97, lon: -103.45, visited: false }
+  - { name: Virgin Islands, states: [U.S. Virgin Islands], lat: 18.33, lon: -64.73, visited: false, territory: true }
+  - { name: Voyageurs, states: [Minnesota], lat: 48.5, lon: -92.88, visited: false }
+  - { name: White Sands, states: [New Mexico], lat: 32.78, lon: -106.17, visited: false }
+  - { name: Wind Cave, states: [South Dakota], lat: 43.57, lon: -103.48, visited: false }
+  - { name: Wrangell–St. Elias, states: [Alaska], lat: 61.0, lon: -142.0, visited: false }
+  - { name: Yellowstone, states: [Wyoming, Montana, Idaho], lat: 44.6, lon: -110.5, visited: true }
+  - { name: Yosemite, states: [California], lat: 37.83, lon: -119.5, visited: true }
+  - { name: Zion, states: [Utah], lat: 37.3, lon: -113.05, visited: true }
