@@ -88,7 +88,7 @@ national_parks:
   - { name: Glacier, states: [Montana], lat: 48.8, lon: -114.0, visited: true }
   - { name: Glacier Bay, states: [Alaska], lat: 58.5, lon: -137.0, visited: false }
   - { name: Grand Canyon, states: [Arizona], lat: 36.06, lon: -112.14, visited: true }
-  - { name: Grand Teton, states: [Wyoming], lat: 43.73, lon: -110.8, visited: false }
+  - { name: Grand Teton, states: [Wyoming], lat: 43.73, lon: -110.8, visited: true }
   - { name: Great Basin, states: [Nevada], lat: 38.98, lon: -114.3, visited: false }
   - { name: Great Sand Dunes, states: [Colorado], lat: 37.73, lon: -105.51, visited: false }
   - { name: Great Smoky Mountains, states: [North Carolina, Tennessee], lat: 35.68, lon: -83.53, visited: false }
@@ -111,7 +111,7 @@ national_parks:
   - { name: New River Gorge, states: [West Virginia], lat: 38.07, lon: -81.08, visited: false }
   - { name: North Cascades, states: [Washington], lat: 48.7, lon: -121.2, visited: true }
   - { name: Olympic, states: [Washington], lat: 47.97, lon: -123.5, visited: true }
-  - { name: Petrified Forest, states: [Arizona], lat: 35.07, lon: -109.78, visited: false }
+  - { name: Petrified Forest, states: [Arizona], lat: 35.07, lon: -109.78, visited: true }
   - { name: Pinnacles, states: [California], lat: 36.48, lon: -121.16, visited: true }
   - { name: Redwood, states: [California], lat: 41.3, lon: -124.0, visited: true }
   - { name: Rocky Mountain, states: [Colorado], lat: 40.4, lon: -105.58, visited: true }
