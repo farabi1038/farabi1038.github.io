@@ -250,6 +250,31 @@ ul.task-list input[type="checkbox"] {
   opacity: 0.95;
 }
 
+// The navbar expands at 992px (navbar-expand-lg). Slightly tighter link spacing than
+// Bootstrap's 0.5rem keeps every tab, search, and the theme toggle on one row.
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.35rem;
+    padding-left: 0.35rem;
+  }
+}
+
+// Below 992px the links sit in the hamburger menu. When the open menu is taller than the
+// screen (phones in landscape), it scrolls so every link stays reachable, and the fixed
+// footer stays under the navbar (Bootstrap gives both z-index 1030) so it cannot cover the
+// last links.
+@media (max-width: 991.98px) {
+  .navbar-expand-lg .navbar-collapse {
+    max-height: calc(100vh - 56px);
+    max-height: calc(100dvh - 56px);
+    overflow-y: auto;
+  }
+
+  footer.fixed-bottom {
+    z-index: 1029;
+  }
+}
+
 .navbar .dropdown-menu {
   background-color: var(--global-bg-color);
   border: 1px solid var(--global-divider-color);
