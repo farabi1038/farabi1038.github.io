@@ -199,6 +199,8 @@ ul.task-list input[type="checkbox"] {
     margin-bottom: 5px;
     margin-top: 5px;
     font-family: monospace;
+    // Long unbroken lines such as an email address wrap instead of running past the page edge.
+    overflow-wrap: anywhere;
 
     p {
       display: inline-block;
@@ -213,6 +215,12 @@ ul.task-list input[type="checkbox"] {
 
 .profile.float-left {
   margin-right: 1rem;
+}
+
+// A divider in the text beside the floated profile stops at the profile instead of running
+// underneath it and through the address lines.
+.profile ~ * hr {
+  overflow: hidden;
 }
 
 @media (min-width: 576px) {
@@ -250,12 +258,117 @@ ul.task-list input[type="checkbox"] {
   opacity: 0.95;
 }
 
-// The navbar expands at 992px (navbar-expand-lg). Slightly tighter link spacing than
-// Bootstrap's 0.5rem keeps every tab, search, and the theme toggle on one row.
+// From 992px up (where navbar-expand-lg shows the links without the hamburger menu) the navbar
+// is a sidebar fixed to the left edge, whatever navbar_fixed is set to: the site name, the page
+// links in a column, then search and the theme toggle on one row, and on the about page the
+// social icons. It scrolls on its own when it is taller than the screen. The page content (see
+// _layout.scss), the fixed footer, and the progress bar start to its right.
 @media (min-width: 992px) {
-  .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 0.35rem;
-    padding-left: 0.35rem;
+  #navbar {
+    position: fixed;
+    top: 0;
+    right: auto;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+    display: block;
+    width: $nav-sidebar-width;
+    padding: 1.25rem 1rem 1.5rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    border-bottom: 0;
+    border-right: 1px solid var(--global-divider-color);
+
+    > .container {
+      display: block;
+      max-width: none;
+      padding: 0;
+    }
+
+    // Only the side spacing changes here. MDB animates every property of links for 0.2s, so a
+    // change to the brand's height would still be animating just after the window shrinks below
+    // 992px, which is when progress-bar.js measures the navbar height.
+    .navbar-brand {
+      display: block;
+      margin-right: 0;
+      padding-right: 0.75rem;
+      padding-left: 0.75rem;
+      white-space: normal;
+    }
+
+    .navbar-collapse {
+      margin-top: 0.75rem;
+    }
+
+    .navbar-brand.social {
+      margin-top: 1rem;
+      text-align: left;
+    }
+
+    .navbar-nav {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      width: 100%;
+      text-align: left;
+
+      > li {
+        grid-column: 1 / -1;
+      }
+
+      > .search-container,
+      > .toggle-container {
+        display: flex;
+        align-items: center;
+        grid-column: auto;
+        margin-top: 0.5rem;
+        padding-top: 0.5rem;
+        border-top: 1px solid var(--global-divider-color);
+      }
+    }
+
+    .nav-link {
+      padding: 0.375rem 0.75rem;
+    }
+
+    .nav-item.active > .nav-link {
+      box-shadow: inset 2px 0 0 var(--global-theme-color);
+    }
+
+    #light-toggle {
+      padding: 0.375rem 0.75rem;
+
+      i {
+        padding: 0;
+      }
+    }
+
+    // Open dropdowns in place: MDB positions navbar dropdowns absolutely, and the scrolling
+    // sidebar would clip them.
+    .dropdown-menu {
+      position: static !important;
+      float: none;
+      min-width: 0;
+      margin: 0 0 0.25rem 0.75rem;
+      padding: 0;
+      border: 0;
+      border-left: 1px solid var(--global-divider-color);
+      border-radius: 0;
+      box-shadow: none;
+
+      .dropdown-item {
+        padding: 0.25rem 0.75rem;
+      }
+    }
+  }
+
+  footer.fixed-bottom {
+    left: $nav-sidebar-width;
+  }
+
+  #progress {
+    left: $nav-sidebar-width;
+    width: calc(100% - #{$nav-sidebar-width});
   }
 }
 
@@ -392,6 +505,11 @@ ul.task-list input[type="checkbox"] {
     transform: rotate(-45deg);
     transform-origin: 10% 90%;
   }
+}
+
+// MDB removes the toggler's outline; keep a focus ring for keyboard users.
+.navbar .navbar-toggler:focus-visible {
+  outline: auto;
 }
 
 .navbar-toggler.collapsed {
@@ -1159,6 +1277,15 @@ nav[data-toggle="toc"] {
 .medium-zoom-overlay,
 .medium-zoom-image--opened {
   z-index: 999;
+}
+
+// From 992px up, a zoomed image (centered in the whole window) goes over the navigation sidebar
+// rather than under it.
+@media (min-width: 992px) {
+  .medium-zoom-overlay,
+  .medium-zoom-image--opened {
+    z-index: 1031;
+  }
 }
 
 #toc-sidebar {

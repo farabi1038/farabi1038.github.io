@@ -1,28 +1,37 @@
 <header>
   <!-- Nav Bar -->
-  <nav id="navbar" class="navbar navbar-light navbar-expand-lg {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
+  {% comment %}
+    Below 992px this is a bar across the top with a hamburger menu. From 992px up it is a sidebar on the
+    left (see _sass/_base.scss) that shows the site name on every page. On the about page the bar shows the
+    social icons instead of the name, as before, and the sidebar shows them at its bottom.
+  {% endcomment %}
+  <nav
+    id="navbar"
+    class="navbar navbar-light navbar-expand-lg {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}"
+    role="navigation"
+    aria-label="Main"
+  >
     <div class="container">
-      {% if page.permalink != '/' %}
-        <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
-          {% if site.title == 'blank' %}
-            {% if site.first_name %}
-              <span class="font-weight-bold">
-                {{- site.first_name -}}
-              </span>
-            {% endif %}
-            {% if site.middle_name %}
-              {{- site.middle_name -}}
-            {% endif %}
-            {% if site.last_name %}
-              {{- site.last_name -}}
-            {% endif %}
-          {% else %}
-            {{- site.title -}}
+      <a class="navbar-brand title font-weight-lighter{% if page.permalink == '/' %} d-none d-lg-block{% endif %}" href="{{ site.baseurl }}/">
+        {% if site.title == 'blank' %}
+          {% if site.first_name %}
+            <span class="font-weight-bold">
+              {{- site.first_name -}}
+            </span>
           {% endif %}
-        </a>
-      {% elsif site.enable_navbar_social %}
+          {% if site.middle_name %}
+            {{- site.middle_name -}}
+          {% endif %}
+          {% if site.last_name %}
+            {{- site.last_name -}}
+          {% endif %}
+        {% else %}
+          {{- site.title -}}
+        {% endif %}
+      </a>
+      {% if page.permalink == '/' and site.enable_navbar_social %}
         <!-- Social Icons -->
-        <div class="navbar-brand social">{% include social.liquid %}</div>
+        <div class="navbar-brand social d-lg-none">{% include social.liquid %}</div>
       {% endif %}
       <!-- Navbar Toggle -->
       <button
@@ -119,7 +128,7 @@
           {% endfor %}
           {% if site.search_enabled %}
             <!-- Search -->
-            <li class="nav-item">
+            <li class="nav-item search-container">
               <button id="search-toggle" title="Search" onclick="openSearchModal()">
                 <span class="nav-link">ctrl k <i class="ti ti-search"></i></span>
               </button>
@@ -137,6 +146,10 @@
           {% endif %}
         </ul>
       </div>
+      {% if page.permalink == '/' and site.enable_navbar_social %}
+        <!-- Social Icons (sidebar) -->
+        <div class="navbar-brand social d-none d-lg-block">{% include social.liquid %}</div>
+      {% endif %}
     </div>
   </nav>
   {% if site.enable_progressbar %}

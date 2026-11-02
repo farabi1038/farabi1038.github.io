@@ -46,7 +46,9 @@ function getCurrentScrollPosition() {
 }
 
 function initializeProgressElement() {
-  let navbarHeight = $("#navbar").outerHeight(true);
+  // From 992px up the navbar is a sidebar on the left (see _sass/_base.scss), so there is no
+  // top bar for the page and the progress bar to clear.
+  let navbarHeight = window.matchMedia("(min-width: 992px)").matches ? 0 : $("#navbar").outerHeight(true);
   $("body").css({ "padding-top": navbarHeight });
   $("progress-container").css({ "padding-top": navbarHeight });
   progressBar.css({ top: navbarHeight });

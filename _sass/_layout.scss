@@ -22,6 +22,27 @@ body.fixed-top-nav {
   padding-top: 56px;
 }
 
+// From 992px up the nav-bar is a sidebar on the left (see _base.scss), so the content starts to
+// its right and there is no top bar to leave room for.
+@media (min-width: 992px) {
+  body {
+    padding-left: $nav-sidebar-width;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      scroll-margin-top: 10px;
+    }
+  }
+
+  body.fixed-top-nav {
+    padding-top: 0;
+  }
+}
+
 body.sticky-bottom-footer {
   // Remove padding below footer.
   padding-bottom: 0;
