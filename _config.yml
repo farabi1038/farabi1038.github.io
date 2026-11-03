@@ -463,7 +463,7 @@ third_party_libraries:
     version: "5.0.0"
   img-comparison-slider:
     integrity:
-      css: "sha256-3qTIuuUWIFnnU3LpQMjqiXc0p09rvd0dmj+WkpQXSR8="
+      css: "sha256-yInMrAM/RjDTYKd3LK9aPqxqsjSmDM3TDuRFcpDyKiM="
       js: "sha256-EXHg3x1K4oIWdyohPeKX2ZS++Wxt/FRPH7Nl01nat1o="
       map: "sha256-3wfqS2WU5kGA/ePcgFzJXl5oSN1QsgZI4/edprTgX8w="
     url:
@@ -479,7 +479,7 @@ third_party_libraries:
     version: "3.6.0"
   leaflet:
     integrity:
-      css: "sha256-q9ba7o845pMPFU+zcAll8rv+gC+fSovKsOoNQ6cynuQ="
+      css: "sha256-QZFpF9DkpabUBLoCc7fQJVCmtag/LaVAfAkUJSfuNyY="
       js: "sha256-MgH13bFTTNqsnuEoqNPBLDaqxjGH+lCpqrukmXc8Ppg="
       js_map: "sha256-YAoQ3FzREN4GmVENMir8vgHHypC0xfSK3CAxTHCqx1M="
     local:
@@ -579,7 +579,7 @@ third_party_libraries:
     integrity:
       css: "sha256-yUoNxsvX+Vo8Trj3lZ/Y5ZBf8HlBFsB6Xwm7rH75/9E="
       js: "sha256-BPrwikijIybg9OQC5SYFFqhBjERYOn97tCureFgYH1E="
-      map: "sha256-lbF5CsospW93otqvWOIbbhj80CjazrZXvamD7nC7TBI="
+      map: "sha256-WyL+pvXnR1NM8OcjEMrB6Ho2JZOghGeI7pOEJl9yAZY="
     url:
       css: "https://cdn.jsdelivr.net/npm/swiper@{{version}}/swiper-bundle.min.css"
       js: "https://cdn.jsdelivr.net/npm/swiper@{{version}}/swiper-element-bundle.min.js"
@@ -594,7 +594,7 @@ third_party_libraries:
   vega:
     integrity:
       js: "sha256-Yot/cfgMMMpFwkp/5azR20Tfkt24PFqQ6IQS+80HIZs="
-      js_map: "sha256-z0x9ICA65dPkZ0JVa9wTImfF6n7AJsKc6WlFE96/wNA="
+      js_map: "sha256-opPwXYzhjRx9TDmVkQ2MbOhAQ3KwheSGHh/I7wPZJPc="
     url:
       js: "https://cdn.jsdelivr.net/npm/vega@{{version}}/build/vega.min.js"
       js_map: "https://cdn.jsdelivr.net/npm/vega@{{version}}/build/vega.min.js.map"
@@ -610,7 +610,7 @@ third_party_libraries:
   vega-lite:
     integrity:
       js: "sha256-TvBvIS5jUN4BSy009usRjNzjI1qRrHPYv7xVLJyjUyw="
-      js_map: "sha256-l2I4D5JC23Ulsu6e3sKVe5AJ+r+DFkzkKnZS8nUGz28="
+      js_map: "sha256-mbGJuBRtn6Hbt3vokmxlI74V5Umcu5qE80Xn1Nk8U7U="
     url:
       js: "https://cdn.jsdelivr.net/npm/vega-lite@{{version}}/build/vega-lite.min.js"
       js_map: "https://cdn.jsdelivr.net/npm/vega-lite@{{version}}/build/vega-lite.min.js.map"
