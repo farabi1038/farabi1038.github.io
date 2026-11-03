@@ -19,6 +19,8 @@
   --global-footer-link-hover-color: #{$flag-green-color-light};
   --global-distill-app-color: #{$grey-color};
   --global-divider-color: rgba(0, 0, 0, 0.1);
+  // Kantha stitches (dividers and card borders): the theme green at 40%, in both modes.
+  --global-stitch-color: color-mix(in srgb, var(--global-theme-color) 40%, transparent);
   --global-card-bg-color: #{$white-color};
   --global-highlight-color: #{$red-color-dark};
   --global-back-to-top-bg-color: rgba(

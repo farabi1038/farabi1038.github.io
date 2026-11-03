@@ -19,8 +19,21 @@ strong {
   color: var(--global-text-color);
 }
 
+// Section dividers are a row of running stitches, as on a nakshi kantha quilt: 6px stitches with
+// 4px gaps. The stitches are drawn 2px thick with a vertical scale, which keeps the divider's 1px
+// in the layout.
 hr {
-  border-top: 1px solid var(--global-divider-color);
+  border-top: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, var(--global-stitch-color) 6px, transparent 6px);
+  background-size: 10px 1px;
+  transform: scaleY(2);
+  transform-origin: top;
+}
+
+// Distill draws its dividers as a 1px bottom border; the stitches take its place.
+.distill d-article hr {
+  border-bottom-width: 0;
 }
 
 table {
@@ -186,6 +199,22 @@ ul.task-list input[type="checkbox"] {
 
   .card-body {
     padding: 1.25rem 1.25rem 1.25rem 1.25rem;
+  }
+}
+
+// A running stitch just inside the edge of every card, like the border of a kantha quilt. It sits
+// behind the card's content (a colored card header covers it) and takes no room in the layout.
+.card {
+  isolation: isolate;
+
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 6px;
+    z-index: -1;
+    border: 1px dashed var(--global-stitch-color);
+    border-radius: inherit;
+    pointer-events: none;
   }
 }
 
