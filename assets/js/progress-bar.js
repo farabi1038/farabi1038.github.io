@@ -14,10 +14,13 @@ const progressBar = $("#progress");
  * scroll size is computed as soon as the elements finish loading.
  * To account for this, a minimal delay was introduced before computing the
  * values.
+ * The handler is added with addEventListener rather than by assigning
+ * window.onload, which would replace other scripts' load handlers (TikZJax
+ * sets window.onload to draw its pictures).
  */
-window.onload = function () {
+window.addEventListener("load", function () {
   setTimeout(progressBarSetup, 50);
-};
+});
 /*
  * We set up the bar according to the browser.
  * If the browser supports the progress element we use that.
