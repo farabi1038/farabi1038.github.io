@@ -66,6 +66,15 @@
     rel="shortcut icon"
     href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>{{ site.icon }}</text></svg>"
   >
+{% elsif site.icon contains '.svg' %}
+  <!-- An SVG icon, with the 32x32 PNG of the same name as the fallback for browsers without SVG favicons -->
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="{{ site.icon | replace: '.svg', '.png' | prepend: '/assets/img/' | relative_url | bust_file_cache }}"
+  >
+  <link rel="icon" type="image/svg+xml" href="{{ site.icon | prepend: '/assets/img/' | relative_url | bust_file_cache }}">
 {% elsif site.icon != blank %}
   <link rel="shortcut icon" href="{{ site.icon | prepend: '/assets/img/' | relative_url | bust_file_cache}}">
 {% endif %}
