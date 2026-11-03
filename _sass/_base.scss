@@ -1144,9 +1144,10 @@ progress {
   top: 56px;
   z-index: 10;
 
-  /* Dimensions */
+  /* Dimensions: tall enough for the ball at the tip (see below); clicks go through to the page. */
   width: 100%;
-  height: 1px;
+  height: 10px;
+  pointer-events: none;
 
   /* Reset the appearance */
   -webkit-appearance: none;
@@ -1167,12 +1168,33 @@ progress::-webkit-progress-bar {
   background-color: transparent;
 }
 
+// The reading progress is a 3px green line with a red cricket ball at its tip, drawn as three
+// backgrounds of the progress value: the ball's seam (an arc), the 10px ball, and the line, which
+// stops at the ball's centre.
+@mixin progress-ball-tip {
+  $seam: rgba(251, 248, 241, 0.9);
+
+  background-color: transparent;
+  background-image: radial-gradient(circle at 0 50%, transparent 5.5px, $seam 5.5px 6.7px, transparent 6.7px),
+    radial-gradient(circle closest-side, var(--global-accent-color, #f42a41) 92%, transparent),
+    linear-gradient(var(--global-theme-color), var(--global-theme-color));
+  background-position:
+    right center,
+    right center,
+    left center;
+  background-size:
+    10px 7px,
+    10px 10px,
+    calc(100% - 5px) 3px;
+  background-repeat: no-repeat;
+}
+
 progress::-webkit-progress-value {
-  background-color: var(--global-theme-color);
+  @include progress-ball-tip;
 }
 
 progress::-moz-progress-bar {
-  background-color: var(--global-theme-color);
+  @include progress-ball-tip;
 }
 
 .progress-container {
