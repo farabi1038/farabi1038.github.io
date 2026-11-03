@@ -407,6 +407,34 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// "Delta flows": from 992px up, a faint pattern of flowing lines behind the sidebar links. River
+// channels come down the right edge and fan out into a delta, a road with a dashed centre line
+// crosses it, and the channels' meeting points are the nodes of a small neural network. The SVG is
+// a mask filled with the theme color, so it follows light and dark mode; it fades out towards the
+// top, where the links are, and the fixed pseudo-element stays put when the sidebar scrolls.
+$delta-flows-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='1000' viewBox='0 0 240 1000' fill='none' stroke-linecap='round'%3E%3Cdefs%3E%3ClinearGradient id='f' gradientUnits='userSpaceOnUse' x1='0' y1='0' x2='0' y2='1000'%3E%3Cstop offset='0' stop-opacity='0'/%3E%3Cstop offset='.38' stop-opacity='.35'/%3E%3Cstop offset='.7'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg stroke='url(%23f)'%3E%3Cpath stroke-width='1.8' d='M224 0C225 23.3 231.7 90 230 140C228.3 190 215 248.3 214 300C213 351.7 226.7 403.3 224 450C221.3 496.7 210 541.7 198 580C186 618.3 164.3 653.3 152 680C139.7 706.7 128.7 730 124 740'/%3E%3Cpath stroke-width='1.3' d='M124 740C117.3 750 95.7 779.7 84 800C72.3 820.3 62 839.3 54 862C46 884.7 41.7 913 36 936C30.3 959 22.7 989.3 20 1000'/%3E%3Cpath stroke-width='1.3' d='M124 740C123 753.7 121.3 794.5 118 822C114.7 849.5 106.3 875.3 104 905C101.7 934.7 104 984.2 104 1000'/%3E%3Cpath stroke-width='1.3' d='M124 740C130 750.3 150.7 780.3 160 802C169.3 823.7 174.7 847.3 180 870C185.3 892.7 187 916.3 192 938C197 959.7 207 989.7 210 1000'/%3E%3Cpath stroke-width='1.2' d='M238 300C237 333.3 232.7 433.3 232 500C231.3 566.7 235 641.7 234 700C233 758.3 225.3 800 226 850C226.7 900 236 975 238 1000'/%3E%3Cpath stroke-width='1.0' d='M0 704C6 709 25 723 36 734C47 745 58 759 66 770C74 781 81 795 84 800'/%3E%3Cpath stroke-width='.9' d='M0.9 905.4C14.3 901.7 54.4 893.3 81.2 883.3C108 873.2 134.9 859.8 161.7 845.1C188.5 830.4 228.5 803.4 241.9 795M-0.9 898.6C12.4 895 52.3 886.7 78.8 876.7C105.3 866.8 131.8 853.5 158.3 838.9C184.9 824.3 224.8 797.3 238.1 789'/%3E%3Cpath stroke-width='1' stroke-dasharray='6 5' d='M0 902C13.3 898.3 53.3 890 80 880C106.7 870 133.3 856.7 160 842C186.7 827.3 226.7 800.3 240 792'/%3E%3Cpath stroke-width='.7' stroke-opacity='.75' d='M124 740L84 800M124 740L118 822M124 740L160 802M124 740L234 700M84 800L36 936M84 800L104 905M84 800L192 938M118 822L36 936M118 822L104 905M118 822L192 938M160 802L36 936M160 802L104 905M160 802L192 938M234 700L36 936M234 700L104 905M234 700L192 938'/%3E%3C/g%3E%3Cg fill='url(%23f)'%3E%3Ccircle cx='124' cy='740' r='3.2'/%3E%3Ccircle cx='84' cy='800' r='2.6'/%3E%3Ccircle cx='118' cy='822' r='2.6'/%3E%3Ccircle cx='160' cy='802' r='2.6'/%3E%3Ccircle cx='234' cy='700' r='2.6'/%3E%3Ccircle cx='36' cy='936' r='2.6'/%3E%3Ccircle cx='104' cy='905' r='2.6'/%3E%3Ccircle cx='192' cy='938' r='2.6'/%3E%3C/g%3E%3C/svg%3E");
+
+@media (min-width: 992px) {
+  #navbar::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    width: $nav-sidebar-width;
+    background-color: var(--global-theme-color);
+    opacity: 0.13;
+    pointer-events: none;
+    -webkit-mask: $delta-flows-mask center bottom / 100% auto no-repeat;
+    mask: $delta-flows-mask center bottom / 100% auto no-repeat;
+  }
+
+  html[data-theme="dark"] #navbar::before {
+    opacity: 0.16;
+  }
+}
+
 // Below 992px the links sit in the hamburger menu. When the open menu is taller than the
 // screen (phones in landscape), it scrolls so every link stays reachable, and the fixed
 // footer stays under the navbar (Bootstrap gives both z-index 1030) so it cannot cover the
