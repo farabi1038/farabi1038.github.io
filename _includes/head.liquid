@@ -33,6 +33,13 @@
   type="text/css"
   href="{{ site.third_party_libraries.google_fonts.url.fonts }}"
 >
+{% if site.title_bn %}
+  <!-- Noto Sans Bengali for the Bangla name under the site title, with only the glyphs of that name -->
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@300&text={{ site.title_bn | url_encode }}&display=swap"
+  >
+{% endif %}
 
 <!-- Code Syntax Highlighting -->
 <link

@@ -28,6 +28,9 @@
         {% else %}
           {{- site.title -}}
         {% endif %}
+        {% if site.title_bn %}
+          <span class="navbar-brand-bn" lang="bn">{{ site.title_bn }}</span>
+        {% endif %}
       </a>
       {% if page.permalink == '/' and site.enable_navbar_social %}
         <!-- Social Icons -->

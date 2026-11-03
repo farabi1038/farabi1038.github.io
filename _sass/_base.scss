@@ -544,6 +544,28 @@ $delta-flows-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/
   }
 }
 
+// The name in Bangla (site.title_bn) after the site title: on the same line in the top bar, where
+// a second line would make the bar taller, and as a smaller line under the title in the sidebar.
+// head.liquid loads Noto Sans Bengali from Google Fonts with only the glyphs of the name, so it looks
+// the same everywhere; the Bengali system fonts of macOS, Windows and Android are the fallbacks.
+.navbar-brand-bn {
+  margin-left: 0.25rem;
+  font-family: "Noto Sans Bengali", "Kohinoor Bangla", "Bangla Sangam MN", "Nirmala UI", Vrinda, sans-serif;
+  font-size: 0.8em;
+  font-weight: 300;
+  line-height: 1;
+  color: var(--global-theme-color);
+}
+
+@media (min-width: 992px) {
+  .navbar-brand-bn {
+    display: block;
+    margin: 0.125rem 0 0;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+}
+
 .navbar-toggler {
   .icon-bar {
     display: block;

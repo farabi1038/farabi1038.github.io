@@ -3,6 +3,7 @@
 # -----------------------------------------------------------------------------
 
 title: Ibne Farabi Shihab # the website title (if blank, full name will be used instead)
+title_bn: ফারাবী # optional: the name in Bangla, shown with the title in the navigation, as a smaller line under it in the sidebar (marked lang="bn"; its glyphs are loaded from Noto Sans Bengali)
 first_name: Ibne Farabi
 middle_name:
 last_name: Shihab
