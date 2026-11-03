@@ -84,44 +84,6 @@ I am passionate about mentoring the next generation of researchers , preferrably
     <div class="card shadow-sm hover-card h-100">
       <div class="card-body">
         <div class="d-flex align-items-start">
-          <i class="fas fa-user-graduate fa-2x text-warning mr-3 mt-1"></i>
-          <div class="flex-grow-1">
-            <h5 class="mb-1">RABEYA BOSRI TAMANNA</h5>
-            <p class="text-muted small mb-2">M.S. Student, Computer Science and Engineering · BRAC University · 2026 – 2028</p>
-            <p class="mb-2">Co-author on knowledge graph completion research using distilled LLM priors. Working on calibration and probabilistic methods.</p>
-            <div class="skill-tags">
-              <span class="badge badge-light">Knowledge Graphs</span>
-              <span class="badge badge-light">LLM Distillation</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="col-md-6 mb-4">
-    <div class="card shadow-sm hover-card h-100">
-      <div class="card-body">
-        <div class="d-flex align-items-start">
-          <i class="fas fa-user-graduate fa-2x text-danger mr-3 mt-1"></i>
-          <div class="flex-grow-1">
-            <h5 class="mb-1">Naoshin Anzum Hridi</h5>
-            <p class="text-muted small mb-2">M.S. Student, Computer Science and Engineering · BRAC University · 2026 – Present</p>
-            <p class="mb-2">Co-author on GFlowNet-guided negative sampling for knowledge graph embedding research.</p>
-            <div class="skill-tags">
-              <span class="badge badge-light">GFlowNets</span>
-              <span class="badge badge-light">KG Embedding</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="col-md-6 mb-4">
-    <div class="card shadow-sm hover-card h-100">
-      <div class="card-body">
-        <div class="d-flex align-items-start">
           <i class="fas fa-user fa-2x text-primary mr-3 mt-1"></i>
           <div class="flex-grow-1">
             <h5 class="mb-1">Adria Binte Habib</h5>
@@ -169,6 +131,50 @@ I am passionate about mentoring the next generation of researchers , preferrably
             <div class="skill-tags">
               <span class="badge badge-light">LLM Inference</span>
               <span class="badge badge-light">Speculative Decoding</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+### Previous Mentees
+
+<div class="row mt-4">
+
+  <div class="col-md-6 mb-4">
+    <div class="card shadow-sm hover-card h-100">
+      <div class="card-body">
+        <div class="d-flex align-items-start">
+          <i class="fas fa-user-graduate fa-2x text-warning mr-3 mt-1"></i>
+          <div class="flex-grow-1">
+            <h5 class="mb-1">Rabeya Bosri Tamanna</h5>
+            <p class="text-muted small mb-2">M.S. Student, Computer Science and Engineering · BRAC University · 2026</p>
+            <p class="mb-2">Co-author on BLADE: Distilled LLM Regularization for Calibrated Knowledge Graph Completion. Worked on calibration and probabilistic methods.</p>
+            <div class="skill-tags">
+              <span class="badge badge-light">Knowledge Graphs</span>
+              <span class="badge badge-light">LLM Distillation</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-6 mb-4">
+    <div class="card shadow-sm hover-card h-100">
+      <div class="card-body">
+        <div class="d-flex align-items-start">
+          <i class="fas fa-user-graduate fa-2x text-danger mr-3 mt-1"></i>
+          <div class="flex-grow-1">
+            <h5 class="mb-1">Naoshin Anzum Hridi</h5>
+            <p class="text-muted small mb-2">M.S. Student, Computer Science and Engineering · BRAC University · 2026</p>
+            <p class="mb-2">Co-author on FlowNeg: GFlowNet-Guided Diverse Hard Negative Sampling for Knowledge Graph Embedding.</p>
+            <div class="skill-tags">
+              <span class="badge badge-light">GFlowNets</span>
+              <span class="badge badge-light">KG Embedding</span>
             </div>
           </div>
         </div>
