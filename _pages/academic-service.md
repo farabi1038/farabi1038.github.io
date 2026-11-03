@@ -26,7 +26,7 @@ I contribute to the research community through area chair service and peer revie
       <div class="card-body text-center">
         <i class="fas fa-file-signature fa-2x text-info mb-3"></i>
         <h5 class="card-title">Conference Reviewer</h5>
-        <p class="card-text text-muted mb-0">15 venues and tracks</p>
+        <p class="card-text text-muted mb-0">17 venues and tracks</p>
       </div>
     </div>
   </div>
@@ -50,11 +50,13 @@ I contribute to the research community through area chair service and peer revie
 | AAAI Conference on Artificial Intelligence                                |                   2027 |
 | Conference on Neural Information Processing Systems (NeurIPS)             |                   2026 |
 | International Conference on Machine Learning (ICML)                       |                   2026 |
-| IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)     |             2025, 2026 |
+| IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)     |                   2026 |
 | CVPR AI City Challenge Workshop                                           |                   2024 |
 | ICCV AI City Challenge Workshop                                           |                   2025 |
 | ECCV AI City Challenge Workshop                                           |                   2026 |
 | IEEE Intelligent Transportation Systems Conference (ITSC)                 | 2023, 2024, 2025, 2026 |
+| IEEE Intelligent Vehicles Symposium (IV)                                  |                   2026 |
+| IEEE International Conference on Robotics and Automation (ICRA)           |                   2027 |
 | ACM Multimedia                                                            |             2025, 2026 |
 | IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)      |             2026, 2027 |
 | International Conference on Learning Representations (ICLR)               |             2026, 2027 |
@@ -62,8 +64,8 @@ I contribute to the research community through area chair service and peer revie
 
 ### Science Fair Judging
 
-| Event                                           | Year(s) |
-| ----------------------------------------------- | ------: |
-| State Science & Technology Fair of Iowa (SSTFI) |    2025 |
+| Event                                           |    Year(s) |
+| ----------------------------------------------- | ---------: |
+| State Science & Technology Fair of Iowa (SSTFI) | 2024, 2025 |
 
 _Years cover completed and ongoing service._
