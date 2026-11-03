@@ -49,9 +49,11 @@
   function parkTrace(parks, visited, colors, compact) {
     const subset = parks.filter((park) => park.visited === visited);
     const lineWidth = compact ? 1 : 1.5;
+    // Parks not visited yet are rings filled with the card color, so they show up on the
+    // theme-green visited states as well as on the grey ones.
     const marker = visited
       ? { symbol: "circle", size: compact ? 7 : 10, color: colors.parkVisited, line: { color: colors.parkOutline, width: lineWidth } }
-      : { symbol: "circle-open", size: compact ? 6 : 8, color: colors.parkNotVisited, line: { width: lineWidth } };
+      : { symbol: "circle", size: compact ? 6 : 8, color: colors.parkOutline, line: { color: colors.parkNotVisited, width: lineWidth } };
     return {
       type: "scattergeo",
       mode: "markers",

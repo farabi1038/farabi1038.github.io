@@ -32,6 +32,17 @@ $grey-900: #212529;
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
 
+// Lal-Sobuj palette, from the flag of Bangladesh. The red is about 4:1 on white, so it is only used
+// for small accents, never for text or links.
+$flag-green-color: #006a4e !default;
+$flag-green-color-light: #4cc38a !default;
+$flag-red-color: #f42a41 !default;
+$off-white-color: #fbf8f1 !default;
+// Secondary text: at least 4.5:1 on the off-white and on white cards, and on the dark-mode
+// background and cards.
+$muted-text-color: #6c6c6c !default;
+$muted-text-color-dark: #999999 !default;
+
 // Theme colors
 
 $code-bg-color-light: rgba($purple-color, 0.05);

@@ -164,6 +164,12 @@ ul.task-list input[type="checkbox"] {
   text-align: center;
 }
 
+// Bootstrap's muted grey (#6c757d) is under 4.5:1 on the off-white and on the dark-mode
+// background, so muted text uses the theme's secondary text color.
+.text-muted {
+  color: var(--global-text-color-light) !important;
+}
+
 // Card
 
 .card {
@@ -332,7 +338,7 @@ ul.task-list input[type="checkbox"] {
     }
 
     .nav-item.active > .nav-link {
-      box-shadow: inset 2px 0 0 var(--global-theme-color);
+      box-shadow: inset 2px 0 0 var(--global-accent-color);
     }
 
     #light-toggle {
@@ -630,7 +636,7 @@ footer.fixed-bottom {
     color: var(--global-footer-link-color);
 
     &:hover {
-      color: var(--global-theme-color);
+      color: var(--global-footer-link-hover-color);
       text-decoration: none;
     }
   }
@@ -777,7 +783,7 @@ footer.sticky-bottom {
     }
 
     &.active .page-link {
-      color: $white-color;
+      color: var(--global-hover-text-color);
       background-color: var(--global-theme-color);
 
       &:hover {
@@ -1492,5 +1498,5 @@ ninja-keys::part(ninja-input-wrapper) {
 // highlight-search-term
 ::highlight(search) {
   background-color: var(--global-theme-color);
-  color: var(--global-text-color);
+  color: var(--global-hover-text-color);
 }

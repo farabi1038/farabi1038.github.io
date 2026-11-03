@@ -5,16 +5,18 @@
 @use "sass:color";
 
 :root {
-  --global-bg-color: #{$white-color};
+  --global-bg-color: #{$off-white-color};
   --global-code-bg-color: #{$code-bg-color-light};
   --global-text-color: #{$black-color};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$green-color-bright};
-  --global-hover-color: #{$green-color-bright};
+  --global-text-color-light: #{$muted-text-color};
+  --global-theme-color: #{$flag-green-color};
+  --global-hover-color: #{$flag-green-color};
   --global-hover-text-color: #{$white-color};
+  --global-accent-color: #{$flag-red-color};
   --global-footer-bg-color: #{$grey-color-dark};
   --global-footer-text-color: #{$grey-color-light};
   --global-footer-link-color: #{$white-color};
+  --global-footer-link-hover-color: #{$flag-green-color-light};
   --global-distill-app-color: #{$grey-color};
   --global-divider-color: rgba(0, 0, 0, 0.1);
   --global-card-bg-color: #{$white-color};
@@ -79,13 +81,14 @@ html[data-theme="dark"] {
   --global-bg-color: #{$grey-color-dark};
   --global-code-bg-color: #{$code-bg-color-dark};
   --global-text-color: #{$grey-color-light};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$green-color-bright};
-  --global-hover-color: #{$green-color-bright};
-  --global-hover-text-color: #{$white-color};
+  --global-text-color-light: #{$muted-text-color-dark};
+  --global-theme-color: #{$flag-green-color-light};
+  --global-hover-color: #{$flag-green-color-light};
+  --global-hover-text-color: #{$grey-color-dark};
   --global-footer-bg-color: #{$grey-color-light};
   --global-footer-text-color: #{$grey-color-dark};
   --global-footer-link-color: #{$black-color};
+  --global-footer-link-hover-color: #{$flag-green-color};
   --global-distill-app-color: #{$grey-color-light};
   --global-divider-color: #424246;
   --global-card-bg-color: #{$grey-900};

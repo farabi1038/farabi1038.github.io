@@ -321,7 +321,7 @@ I am a **Applied Scientist in Amazon** and recently completed my **Ph.D. in Comp
 <style>
 /* Modern Design System */
 :root {
-  --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --primary-gradient: linear-gradient(135deg, var(--global-theme-color) 0%, color-mix(in srgb, var(--global-theme-color) 85%, black) 100%);
   --success-gradient: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
   --info-gradient: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
 }
@@ -359,12 +359,17 @@ I am a **Applied Scientist in Amazon** and recently completed my **Ph.D. in Comp
   font-weight: 600;
 }
 
+/* The colored headers look the same in both modes, so their titles keep the light-mode text color. */
+.card-header h3 {
+  color: #000;
+}
+
 /* Stat Cards */
 .stat-card {
   transition: all 0.3s ease;
   border: none;
   border-radius: 15px;
-  background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+  background: var(--global-card-bg-color);
 }
 
 .stat-card:hover {
@@ -389,13 +394,13 @@ I am a **Applied Scientist in Amazon** and recently completed my **Ph.D. in Comp
 
 .metric-box h4 {
   font-weight: 700;
-  color: #2c3e50;
+  color: var(--global-text-color);
   margin: 0.5rem 0;
 }
 
 /* Expertise Items */
 .expertise-item h5 {
-  color: #2c3e50;
+  color: var(--global-text-color);
   font-weight: 600;
   font-size: 1.1rem;
 }
@@ -433,7 +438,11 @@ I am a **Applied Scientist in Amazon** and recently completed my **Ph.D. in Comp
 .collab-card {
   border: none;
   border-radius: 20px;
-  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  background: var(--global-card-bg-color);
+}
+
+.collab-card .border-top {
+  border-color: var(--global-divider-color) !important;
 }
 
 .opportunity-tags .badge-lg {
@@ -458,25 +467,33 @@ I am a **Applied Scientist in Amazon** and recently completed my **Ph.D. in Comp
   box-shadow: 0 8px 25px rgba(0,0,0,0.2);
 }
 
-.btn-primary {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+.btn-primary,
+.btn-primary:hover {
+  background: var(--primary-gradient);
+  color: var(--global-hover-text-color);
   border: none;
 }
 
+.btn-outline-primary {
+  color: var(--global-theme-color) !important;
+  border-color: var(--global-theme-color) !important;
+}
+
 .btn-outline-primary:hover {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  border-color: transparent;
+  background: var(--primary-gradient);
+  color: var(--global-hover-text-color) !important;
+  border-color: transparent !important;
 }
 
 /* Typography */
 .lead {
   font-size: 1.15rem;
   line-height: 1.8;
-  color: #495057;
+  color: var(--global-text-color);
 }
 
 .card-title {
-  color: #2c3e50;
+  color: var(--global-text-color);
   font-weight: 600;
 }
 

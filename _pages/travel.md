@@ -9,17 +9,15 @@ chart:
   plotly: true
 _styles: |
   .travel-map-card {
-    --travel-state-visited: #74d3a8;
+    --travel-state-visited: var(--global-theme-color);
     --travel-state-not-visited: #e3e6ea;
     --travel-state-border: var(--global-card-bg-color);
-    --travel-park-visited: #d9480f;
+    --travel-park-visited: var(--global-accent-color);
     --travel-park-not-visited: #495057;
     --travel-park-outline: var(--global-card-bg-color);
   }
   html[data-theme="dark"] .travel-map-card {
-    --travel-state-visited: #1f8a62;
     --travel-state-not-visited: #3d434a;
-    --travel-park-visited: #ffa94d;
     --travel-park-not-visited: #ced4da;
   }
   .travel-map {
