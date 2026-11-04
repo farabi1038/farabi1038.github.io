@@ -31,6 +31,7 @@ linkedin_username: ibne-farabi-shihab-271665bb # your LinkedIn user name
 # research_gate_profile: # your profile on ResearchGate
 rss_icon: false # set to true to show the RSS icon
 scholar_userid: Q4heWQYAAAAJ # your Google Scholar ID
+acl_anthology_id: ibne-farabi-shihab # your aclanthology.org/people/id
 # scopus_id: # your profile on Scopus
 # semanticscholar_id: # your Semantic Scholar ID
 # spotify_id: # your spotify id

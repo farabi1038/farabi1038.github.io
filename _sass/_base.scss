@@ -436,8 +436,10 @@ ul.task-list input[type="checkbox"] {
       margin-top: 0.75rem;
     }
 
+    // The social icons may also use the right padding, so that their row fits on one line.
     .navbar-brand.social {
       margin-top: 1rem;
+      padding-right: 0;
       text-align: left;
     }
 
@@ -801,6 +803,21 @@ html[data-theme="dark"] {
     filter: invert(0.91);
     mix-blend-mode: lighten;
   }
+}
+
+// The ACL Anthology icon, in the social icons and the CV. None of the icon fonts the site loads has
+// one, so it is the ACL logo (assets/img/acl-anthology.svg) as a mask over the current color: it
+// takes the color of the font icons beside it, in light and dark mode and on hover. The 1em box with
+// vertical-align -0.125em is the box of a Font Awesome glyph.
+.acl-anthology-icon::before {
+  content: "";
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.125em;
+  background-color: currentColor;
+  -webkit-mask: url("../img/acl-anthology.svg") center / contain no-repeat;
+  mask: url("../img/acl-anthology.svg") center / contain no-repeat;
 }
 
 .wechat-modal {

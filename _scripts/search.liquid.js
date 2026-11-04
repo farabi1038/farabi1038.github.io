@@ -101,6 +101,10 @@ ninja.data = [
   {%- if site.socials_in_search -%}
     {%- for social in site.data.socials -%}
       {%- case social[0] -%}
+        {%- when "acl_anthology_id" -%}
+          {%- assign social_id = "social-acl-anthology" -%}
+          {%- assign social_title = "ACL Anthology" -%}
+          {%- capture social_url %}"https://aclanthology.org/people/{{ social[1] }}/"{% endcapture -%}
         {%- when "acm_id" -%}
           {%- assign social_id = "social-acm" -%}
           {%- assign social_title = "ACM DL" -%}
