@@ -680,6 +680,21 @@ $delta-flows-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/
   }
 }
 
+// Image logos of custom socials, in the navbar and at the bottom of the about page. The GitHub mark
+// in _data/socials.yml has an opaque white background, a white square on the off-white; multiply
+// blending drops the white in light mode. Dark mode shows the image as it is.
+.navbar-brand.social a img,
+.social .contact-icons a img {
+  mix-blend-mode: multiply;
+}
+
+html[data-theme="dark"] {
+  .navbar-brand.social a img,
+  .social .contact-icons a img {
+    mix-blend-mode: normal;
+  }
+}
+
 .wechat-modal {
   display: none;
   position: fixed;
