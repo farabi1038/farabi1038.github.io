@@ -3,6 +3,7 @@
  ******************************************************************************/
 
 @use "sass:color";
+@use "sass:map";
 
 :root {
   --global-bg-color: #{$off-white-color};
@@ -172,4 +173,28 @@ html[data-theme-setting="light"] {
     padding-top: 12px;
     display: block;
   }
+}
+
+// Bootstrap and MDB's contextual colors in the palette ($contextual-colors-light and
+// $contextual-colors-dark in _variables.scss), used by the class rules in _base.scss. An alert is
+// tinted with its color mixed into the page: 14% for the background and 35% for the border in light
+// mode, 24% and 45% in dark mode.
+@mixin contextual-color-properties($colors, $page, $alert-weight, $alert-border-weight) {
+  @each $name, $color in $colors {
+    --global-#{$name}-color: #{map.get($color, "fill")};
+    --global-#{$name}-on-color: #{map.get($color, "on")};
+    --global-#{$name}-hover-color: #{map.get($color, "hover")};
+    --global-#{$name}-text-color: #{map.get($color, "text")};
+    --global-#{$name}-strong-color: #{map.get($color, "strong")};
+    --global-#{$name}-alert-bg-color: #{color.mix(map.get($color, "fill"), $page, $alert-weight)};
+    --global-#{$name}-alert-border-color: #{color.mix(map.get($color, "fill"), $page, $alert-border-weight)};
+  }
+}
+
+:root {
+  @include contextual-color-properties($contextual-colors-light, $off-white-color, 14%, 35%);
+}
+
+html[data-theme="dark"] {
+  @include contextual-color-properties($contextual-colors-dark, $grey-color-dark, 24%, 45%);
 }

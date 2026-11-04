@@ -64,3 +64,142 @@ $back-to-top-right: 30px;
 $back-to-top-diameter: 40px;
 $back-to-top-height: $back-to-top-diameter;
 $back-to-top-width: $back-to-top-diameter;
+
+// The palette's other accents: deep teal, the tan of a cricket pitch, the red of a cricket ball and
+// the grey of monsoon rain.
+$deep-teal-color: #0b5d6b !default;
+$pitch-tan-color: #c9a86a !default;
+$ball-red-color: #b3202a !default;
+$rain-grey-color: #5b6770 !default;
+
+// Bootstrap and MDB's contextual colors (primary to dark) in the palette, for light and dark mode.
+// _themes.scss turns them into custom properties and _base.scss applies them to the classes.
+//   fill    background of badge-*, bg-* (such as the colored card headers) and btn-*
+//   on      text on the fill: white, or dark ink where white would be under 4.5:1
+//   hover   fill of a hovered or pressed btn-*
+//   text    text-* (the icons on the pages) and border-*: 3:1 or more on the page and on cards. In
+//           light mode success is a green between the two flag greens (3.5:1), so its icons stay
+//           apart from primary's
+//   strong  label and border of btn-outline-*, text of alert-*: 4.5:1 or more on the page, on
+//           cards and on the alert's tint
+// The five that the about page shows side by side stay distinct: flag green, teal, light green,
+// tan and red. Danger is the cricket-ball red; the flag red stays an accent. Light is a subtle
+// surface and dark a strong one, and in dark mode both are dark surfaces with light text. text-light
+// is light text in both modes; text-dark is dark text in light mode and light text in dark mode,
+// where every surface is dark.
+$contextual-colors-light: (
+  "primary": (
+    "fill": $flag-green-color,
+    "on": $white-color,
+    "hover": #005d45,
+    "text": $flag-green-color,
+    "strong": $flag-green-color,
+  ),
+  "secondary": (
+    "fill": $rain-grey-color,
+    "on": $white-color,
+    "hover": #505b63,
+    "text": $rain-grey-color,
+    "strong": $rain-grey-color,
+  ),
+  "success": (
+    "fill": $flag-green-color-light,
+    "on": $grey-color-dark,
+    "hover": #67cc9c,
+    "text": #26966c,
+    "strong": #2a6b4c,
+  ),
+  "info": (
+    "fill": $deep-teal-color,
+    "on": $white-color,
+    "hover": #0a525e,
+    "text": $deep-teal-color,
+    "strong": $deep-teal-color,
+  ),
+  "warning": (
+    "fill": $pitch-tan-color,
+    "on": $grey-color-dark,
+    "hover": #d1b580,
+    "text": #8a6a2e,
+    "strong": #7a5d27,
+  ),
+  "danger": (
+    "fill": $ball-red-color,
+    "on": $white-color,
+    "hover": #9e1c25,
+    "text": $ball-red-color,
+    "strong": $ball-red-color,
+  ),
+  "light": (
+    "fill": #f0e6d3,
+    "on": $grey-color-dark,
+    "hover": #e9dcc4,
+    "text": $off-white-color,
+    "strong": $grey-color-dark,
+  ),
+  "dark": (
+    "fill": $grey-color-dark,
+    "on": $off-white-color,
+    "hover": $black-color,
+    "text": $grey-color-dark,
+    "strong": $grey-color-dark,
+  ),
+) !default;
+$contextual-colors-dark: (
+  "primary": (
+    "fill": $flag-green-color,
+    "on": $white-color,
+    "hover": #005d45,
+    "text": $flag-green-color-light,
+    "strong": $flag-green-color-light,
+  ),
+  "secondary": (
+    "fill": $rain-grey-color,
+    "on": $white-color,
+    "hover": #505b63,
+    "text": #a5abb0,
+    "strong": #a5abb0,
+  ),
+  "success": (
+    "fill": $flag-green-color-light,
+    "on": $grey-color-dark,
+    "hover": #67cc9c,
+    "text": #aee4ca,
+    "strong": #aee4ca,
+  ),
+  "info": (
+    "fill": $deep-teal-color,
+    "on": $white-color,
+    "hover": #0a525e,
+    "text": #85aeb5,
+    "strong": #85aeb5,
+  ),
+  "warning": (
+    "fill": $pitch-tan-color,
+    "on": $grey-color-dark,
+    "hover": #d1b580,
+    "text": $pitch-tan-color,
+    "strong": $pitch-tan-color,
+  ),
+  "danger": (
+    "fill": $ball-red-color,
+    "on": $white-color,
+    "hover": #9e1c25,
+    "text": #d1797f,
+    "strong": #d1797f,
+  ),
+  "light": (
+    "fill": #343028,
+    "on": $grey-color-light,
+    "hover": #3e392f,
+    "text": $grey-color-light,
+    "strong": $grey-color-light,
+  ),
+  "dark": (
+    "fill": #0e0e0f,
+    "on": $grey-color-light,
+    "hover": $black-color,
+    "text": $grey-color-light,
+    "strong": $grey-color-light,
+  ),
+) !default;

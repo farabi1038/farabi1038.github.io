@@ -183,6 +183,106 @@ ul.task-list input[type="checkbox"] {
   color: var(--global-text-color-light) !important;
 }
 
+// Bootstrap and MDB's contextual colors (primary, secondary, success, info, warning, danger, light
+// and dark) in the palette, from the custom properties at the end of _themes.scss. MDB sets most of
+// them with !important, so these rules do too, with selectors at least as specific as MDB's.
+@each $name in primary, secondary, success, info, warning, danger, light, dark {
+  .badge-#{$name} {
+    color: var(--global-#{$name}-on-color) !important;
+    background-color: var(--global-#{$name}-color) !important;
+  }
+
+  // A colored background brings its text color. Text in the theme's text color takes it through the
+  // custom property, and headings directly: the titles in the about page's colored card headers are
+  // black otherwise.
+  .bg-#{$name} {
+    --global-text-color: var(--global-#{$name}-on-color);
+    background-color: var(--global-#{$name}-color) !important;
+  }
+
+  .bg-#{$name},
+  .bg-#{$name} h1,
+  .bg-#{$name} h2,
+  .bg-#{$name} h3,
+  .bg-#{$name} h4,
+  .bg-#{$name} h5,
+  .bg-#{$name} h6 {
+    color: var(--global-#{$name}-on-color) !important;
+  }
+
+  a.bg-#{$name},
+  button.bg-#{$name} {
+    &:hover,
+    &:focus {
+      background-color: var(--global-#{$name}-hover-color) !important;
+    }
+  }
+
+  .text-#{$name},
+  a.text-#{$name}:hover,
+  a.text-#{$name}:focus {
+    color: var(--global-#{$name}-text-color) !important;
+  }
+
+  .border-#{$name} {
+    border-color: var(--global-#{$name}-text-color) !important;
+  }
+
+  // Bootstrap's pressed state sets the label color at (0,4,0), so those selectors are here too.
+  .btn-#{$name} {
+    &,
+    &:hover,
+    &:focus,
+    &.focus,
+    &:active,
+    &.active,
+    &:not(:disabled):not(.disabled):active,
+    &:not(:disabled):not(.disabled).active,
+    .show > &.dropdown-toggle {
+      color: var(--global-#{$name}-on-color);
+    }
+
+    &,
+    &.dropdown-toggle {
+      background-color: var(--global-#{$name}-color) !important;
+    }
+
+    &:hover,
+    &.dropdown-toggle:hover,
+    &.dropdown-toggle:focus,
+    &:not([disabled]):not(.disabled):active,
+    &:not([disabled]):not(.disabled).active,
+    .show > &.dropdown-toggle {
+      background-color: var(--global-#{$name}-hover-color) !important;
+    }
+  }
+
+  .btn-outline-#{$name} {
+    &,
+    &:hover,
+    &:focus,
+    &:active,
+    &:active:focus,
+    &.active,
+    &:not([disabled]):not(.disabled):active,
+    &:not([disabled]):not(.disabled).active,
+    .show > &.dropdown-toggle {
+      color: var(--global-#{$name}-strong-color) !important;
+      border-color: var(--global-#{$name}-strong-color) !important;
+    }
+  }
+
+  .alert-#{$name} {
+    color: var(--global-#{$name}-strong-color);
+    background-color: var(--global-#{$name}-alert-bg-color);
+    border-color: var(--global-#{$name}-alert-border-color);
+
+    .alert-link {
+      color: var(--global-#{$name}-strong-color);
+    }
+  }
+}
+
 // Card
 
 .card {
