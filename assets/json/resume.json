@@ -40,9 +40,7 @@
       "startDate": "2026-01-31",
       "endDate": "",
       "summary": "Working on agentic bot systems.",
-      "highlights": [
-        "Working on agentic bot systems"
-      ]
+      "highlights": ["Working on agentic bot systems"]
     },
     {
       "name": "Dallas College",
@@ -192,28 +190,28 @@
       "name": "EST-PRM: Stress-Testing Process Reward Models Before They Become Load-Bearing",
       "publisher": "EMNLP 2026 Main Conference",
       "releaseDate": "2026",
-      "url": "https://lnkd.in/gkaUrrfc",
+      "url": "https://aclanthology.org/2026.emnlp-main.778/",
       "summary": "Accepted to EMNLP 2026 Main Conference"
     },
     {
       "name": "Spectral DPO: Mitigating Validation Collapse via Heavy-Tailed Regularization",
       "publisher": "EMNLP 2026 Main Conference",
       "releaseDate": "2026",
-      "url": "",
+      "url": "https://aclanthology.org/2026.emnlp-main.785/",
       "summary": "Accepted to EMNLP 2026 Main Conference"
     },
     {
       "name": "Counterfactual Sensitivity Regularization for Trace-Sensitive Reasoning in Large Language Models",
       "publisher": "Findings of EMNLP 2026",
       "releaseDate": "2026",
-      "url": "https://lnkd.in/gn5niU-A",
+      "url": "https://aclanthology.org/2026.findings-emnlp.539/",
       "summary": "Accepted to Findings of EMNLP 2026"
     },
     {
       "name": "Grounded Decoding: Retrieval-Anchored Probability Fusion for Faithful RAG",
       "publisher": "Findings of EMNLP 2026",
       "releaseDate": "2026",
-      "url": "https://lnkd.in/gFiuDJ-A",
+      "url": "https://aclanthology.org/2026.findings-emnlp.544/",
       "summary": "Accepted to Findings of EMNLP 2026"
     },
     {
@@ -262,21 +260,21 @@
       "name": "Adaptive Constraint Propagation: Scaling Structured Inference for Large Language Models via Meta-Reinforcement Learning",
       "publisher": "ACL 2026 Main Conference",
       "releaseDate": "2026",
-      "url": "https://arxiv.org/abs/2601.00095",
+      "url": "https://aclanthology.org/2026.acl-long.701/",
       "summary": "Accepted to ACL 2026 Main Conference"
     },
     {
       "name": "Beyond Variance: Knowledge-Aware LLM Compression via Fisher-Aligned Subspace Diagnostics",
       "publisher": "ACL 2026 Main Conference",
       "releaseDate": "2026",
-      "url": "https://arxiv.org/abs/2601.07197",
+      "url": "https://aclanthology.org/2026.acl-long.2214/",
       "summary": "Accepted to ACL 2026 Main Conference"
     },
     {
       "name": "Detecting Proxy Gaming in RL and LLM Alignment via Evaluator Stress Tests",
       "publisher": "ACL 2026 Findings",
       "releaseDate": "2026",
-      "url": "https://arxiv.org/abs/2507.05619",
+      "url": "https://aclanthology.org/2026.findings-acl.513/",
       "summary": "Accepted to ACL 2026 Findings"
     },
     {
@@ -325,14 +323,14 @@
       "name": "Efficient Unstructured Pruning of Mamba State-Space Models for Resource-Constrained Environments",
       "publisher": "EMNLP 2025",
       "releaseDate": "2025",
-      "url": "https://arxiv.org/abs/2505.08299",
+      "url": "https://aclanthology.org/2025.emnlp-main.562/",
       "summary": "Accepted to EMNLP 2025"
     },
     {
       "name": "Cache-Efficient Posterior Sampling for Reinforcement Learning with LLM-Derived Priors Across Discrete and Continuous Domains",
       "publisher": "EMNLP 2025",
       "releaseDate": "2025",
-      "url": "https://arxiv.org/abs/2505.07274",
+      "url": "https://aclanthology.org/2025.emnlp-main.560/",
       "summary": "Accepted to EMNLP 2025"
     },
     {

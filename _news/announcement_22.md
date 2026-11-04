@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-4 papers accepted at EMNLP 2026—2 Main Conference papers, [EST-PRM](https://lnkd.in/gkaUrrfc) and *Spectral DPO* (arXiv coming soon), and 2 Findings papers, [Counterfactual Sensitivity Regularization](https://lnkd.in/gn5niU-A) and [Grounded Decoding](https://lnkd.in/gFiuDJ-A)! :tada:
+4 papers accepted at EMNLP 2026—2 Main Conference papers, [EST-PRM](https://aclanthology.org/2026.emnlp-main.778/) and [Spectral DPO](https://aclanthology.org/2026.emnlp-main.785/), and 2 Findings papers, [Counterfactual Sensitivity Regularization](https://aclanthology.org/2026.findings-emnlp.539/) and [Grounded Decoding](https://aclanthology.org/2026.findings-emnlp.544/)! :tada:
