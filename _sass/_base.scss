@@ -435,6 +435,17 @@ $delta-flows-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/
   }
 }
 
+// On a window shorter than 900px the bottom-anchored mask would bring the full-strength delta up
+// behind the lower links. There the pattern stays where a 900px window has it (the top of the
+// 1000px mask 100px above the window), so the links keep the same background at any height and the
+// bottom of the delta is cut off instead.
+@media (min-width: 992px) and (max-height: 900px) {
+  #navbar::before {
+    -webkit-mask-position: center -100px;
+    mask-position: center -100px;
+  }
+}
+
 // Below 992px the links sit in the hamburger menu. When the open menu is taller than the
 // screen (phones in landscape), it scrolls so every link stays reachable, and the fixed
 // footer stays under the navbar (Bootstrap gives both z-index 1030) so it cannot cover the
