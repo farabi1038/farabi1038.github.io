@@ -474,12 +474,21 @@ I am a **Applied Scientist in Amazon** and recently completed my **Ph.D. in Comp
   border: none;
 }
 
-.btn-outline-primary {
+/* MDB's !important rules color the outline button blue when focused or pressed. These selectors are at least as specific, so they win. */
+.btn-outline-primary,
+.btn-outline-primary:focus {
   color: var(--global-theme-color) !important;
   border-color: var(--global-theme-color) !important;
 }
 
-.btn-outline-primary:hover {
+/* MDB removes the outline; keep a focus ring for keyboard users. */
+.btn-outline-primary:focus-visible {
+  outline: 2px solid var(--global-theme-color);
+  outline-offset: 3px;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:not([disabled]):not(.disabled):active {
   background: var(--primary-gradient);
   color: var(--global-hover-text-color) !important;
   border-color: transparent !important;
