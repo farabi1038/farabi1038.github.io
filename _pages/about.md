@@ -18,7 +18,7 @@ selected_papers: true
 social: true
 ---
 
-I am a **Applied Scientist in Amazon** and recently completed my **Ph.D. in Computer Science** from Iowa State University (October 2025). My research lies at the intersection of **artificial intelligence**, **computer vision**, and **transportation systems**.
+I am an **Applied Scientist at Amazon** and recently completed my **Ph.D. in Computer Science** from Iowa State University (October 2025). My research lies at the intersection of **artificial intelligence**, **computer vision**, and **transportation systems**.
 
 <div class="research-badges mt-3 mb-4">
   <span class="badge badge-pill badge-primary">Computer Vision</span>
