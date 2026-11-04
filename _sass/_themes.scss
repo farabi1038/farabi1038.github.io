@@ -19,8 +19,11 @@
   --global-footer-link-hover-color: #{$flag-green-color-light};
   --global-distill-app-color: #{$grey-color};
   --global-divider-color: rgba(0, 0, 0, 0.1);
-  // Kantha stitches (dividers and card borders): the theme green at 40%, in both modes.
-  --global-stitch-color: color-mix(in srgb, var(--global-theme-color) 40%, transparent);
+  // Kantha stitches (dividers and card borders): the theme green at 40% in both modes, set in the
+  // @supports block below. Browsers without color-mix() (Chrome before 111, Firefox before 113,
+  // Safari before 16.2) keep the divider color; given a color-mix() value they would drop every
+  // stitch, dividers included.
+  --global-stitch-color: var(--global-divider-color);
   --global-card-bg-color: #{$white-color};
   --global-highlight-color: #{$red-color-dark};
   --global-back-to-top-bg-color: rgba(
@@ -76,6 +79,14 @@
     height: $back-to-top-height;
     width: $back-to-top-width;
     z-index: $back-to-top-z-index;
+  }
+}
+
+// The stitch color where color-mix() works. The test is positive because jekyll-minifier writes
+// "@supports not (" as "not(", which browsers read as an unknown function and never apply.
+@supports (color: color-mix(in srgb, red 50%, red)) {
+  :root {
+    --global-stitch-color: color-mix(in srgb, var(--global-theme-color) 40%, transparent);
   }
 }
 

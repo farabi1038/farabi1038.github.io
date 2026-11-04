@@ -321,9 +321,17 @@ I am a **Applied Scientist in Amazon** and recently completed my **Ph.D. in Comp
 <style>
 /* Modern Design System */
 :root {
-  --primary-gradient: linear-gradient(135deg, var(--global-theme-color) 0%, color-mix(in srgb, var(--global-theme-color) 85%, black) 100%);
+  /* Browsers without color-mix() get the flat theme color, drawn as an image so it still covers MDB's !important blue background. */
+  --primary-gradient: linear-gradient(var(--global-theme-color), var(--global-theme-color));
   --success-gradient: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
   --info-gradient: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+}
+
+/* The gradient where color-mix() works. The test is positive because the minifier writes "@supports not (" as "not(", which browsers never apply. */
+@supports (color: color-mix(in srgb, red 50%, red)) {
+  :root {
+    --primary-gradient: linear-gradient(135deg, var(--global-theme-color) 0%, color-mix(in srgb, var(--global-theme-color) 85%, black) 100%);
+  }
 }
 
 /* Badge Styles */
