@@ -782,7 +782,9 @@ $delta-flows-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/
 
 // Image logos of custom socials, in the navbar and at the bottom of the about page. The GitHub mark
 // in _data/socials.yml has an opaque white background, a white square on the off-white; multiply
-// blending drops the white in light mode. Dark mode shows the image as it is.
+// blending drops the white in light mode. In dark mode the mark is inverted to light grey on near
+// black (GitHub's own mark for dark backgrounds is the same shape in white), and lighten blending
+// drops the near black, so the mark matches the icons beside it with no white square.
 .navbar-brand.social a img,
 .social .contact-icons a img {
   mix-blend-mode: multiply;
@@ -792,6 +794,12 @@ html[data-theme="dark"] {
   .navbar-brand.social a img,
   .social .contact-icons a img {
     mix-blend-mode: normal;
+  }
+
+  .navbar-brand.social a img[src*="GitHub-Mark"],
+  .social .contact-icons a img[src*="GitHub-Mark"] {
+    filter: invert(0.91);
+    mix-blend-mode: lighten;
   }
 }
 
@@ -1230,6 +1238,37 @@ footer.sticky-bottom {
   }
 }
 
+// Logo images with an opaque white backdrop: the publication previews listed here and three of the
+// CV's institution logos (found by checking every page for white boxes; add new ones to the list).
+// In light mode multiply blending lets the page or the card show through the white. On a dark page
+// no blending removes it, so in dark mode the white is dimmed and warmed toward the off-white
+// instead, and the logo stays legible. Photos, journal covers and posters are left as they are.
+@mixin white-backdrop-logos {
+  img.preview[src*="/BMVC_26."],
+  img.preview[src*="/ICCIT-logo."],
+  img.preview[src*="/R10-HTC-2018-logo."],
+  img.preview[src*="/emnlp-logo."],
+  img.preview[src*="/icml-2026-logo."],
+  img.preview[src*="/itsc-2026-logo."],
+  img.preview[src*="/neurips-2026-logo."],
+  .cv .institution img[src*="/iastate-logo."],
+  .cv .institution img[src*="/brac-logo."],
+  .cv .institution img[src*="/dallas-college-logo."] {
+    @content;
+  }
+}
+
+@include white-backdrop-logos {
+  mix-blend-mode: multiply;
+}
+
+html[data-theme="dark"] {
+  @include white-backdrop-logos {
+    mix-blend-mode: normal;
+    filter: brightness(0.75) sepia(0.3);
+  }
+}
+
 // Rouge Color Customization
 figure.highlight {
   margin: 0 0 1rem;
@@ -1255,6 +1294,13 @@ code {
   background-color: var(--global-code-bg-color);
   border-radius: 3px;
   padding: 3px 3px;
+}
+
+// Both highlight themes mark code that Rouge cannot parse (.err) with a pink box, a light box in dark
+// mode; there it is dark red with light red text (4.8:1).
+html[data-theme="dark"] .highlight .err {
+  color: #d1797f;
+  background-color: #401d20;
 }
 
 // Transitioning Themes
@@ -1566,6 +1612,15 @@ ninja-keys {
   --ninja-icon-size: 0px;
   --ninja-modal-background: var(--global-bg-color);
   --ninja-z-index: 1031;
+  // Ninja Keys' light defaults put a white veil over the page and a cool white behind the chosen
+  // result: the veil is the off-white here, and the chosen result has the card color. Dark mode
+  // keeps its own veil, set again below because these rules outrank the component's.
+  --ninja-overflow-background: rgba(251, 248, 241, 0.5);
+  --ninja-selected-background: var(--global-card-bg-color);
+}
+
+html[data-theme="dark"] ninja-keys {
+  --ninja-overflow-background: rgba(0, 0, 0, 0.7);
 }
 
 ninja-keys::part(ninja-input) {

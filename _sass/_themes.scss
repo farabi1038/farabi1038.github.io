@@ -25,7 +25,7 @@
   // Safari before 16.2) keep the divider color; given a color-mix() value they would drop every
   // stitch, dividers included.
   --global-stitch-color: var(--global-divider-color);
-  --global-card-bg-color: #{$white-color};
+  --global-card-bg-color: #{$card-bg-color-light};
   --global-highlight-color: #{$red-color-dark};
   --global-back-to-top-bg-color: rgba(
     #{color.channel($black-color, "red", $space: rgb)},
@@ -99,10 +99,10 @@ html[data-theme="dark"] {
   --global-theme-color: #{$flag-green-color-light};
   --global-hover-color: #{$flag-green-color-light};
   --global-hover-text-color: #{$grey-color-dark};
-  --global-footer-bg-color: #{$grey-color-light};
-  --global-footer-text-color: #{$grey-color-dark};
-  --global-footer-link-color: #{$black-color};
-  --global-footer-link-hover-color: #{$flag-green-color};
+  --global-footer-bg-color: #{$footer-bg-color-dark};
+  --global-footer-text-color: #{$grey-color-light};
+  --global-footer-link-color: #{$white-color};
+  --global-footer-link-hover-color: #{$flag-green-color-light};
   --global-distill-app-color: #{$grey-color-light};
   --global-divider-color: #424246;
   --global-card-bg-color: #{$grey-900};

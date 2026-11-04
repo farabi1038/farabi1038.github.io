@@ -42,6 +42,11 @@ $off-white-color: #fbf8f1 !default;
 // background and cards.
 $muted-text-color: #6c6c6c !default;
 $muted-text-color-dark: #999999 !default;
+// Cards in light mode: the off-white with 8% of the palette's pitch tan (#c9a86a), a shade darker than
+// the page rather than a white box on it. The kantha stitch and the shadow still mark the edge.
+$card-bg-color-light: #f7f2e6 !default;
+// The footer in dark mode: a band darker than the page, as the light mode footer is a dark band.
+$footer-bg-color-dark: #0e0e0f !default;
 
 // Theme colors
 
