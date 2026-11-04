@@ -1,5 +1,6 @@
 # Conference and venue configurations
-# Add colors and URLs for publication badges
+# Add colors and URLs for publication badges. A venue without a color gets the theme green.
+# Badge text is white; set text_color where white on the color would be under 4.5:1.
 
 "NeurIPS":
   url: https://neurips.cc/
@@ -11,7 +12,6 @@
 
 "EMNLP":
   url: https://2025.emnlp.org/
-  color: "#11d68b"
 
 "CVPR":
   url: https://cvpr.thecvf.com/
@@ -28,6 +28,7 @@
 "ICLR":
   url: https://iclr.cc/
   color: "#f29105"
+  text_color: "#1c1c1d"
 
 "IEEE ITS":
   url: https://ieeexplore.ieee.org/
@@ -40,14 +41,17 @@
 "TRC":
   url: https://www.trb.org/
   color: "#2698ba"
+  text_color: "#1c1c1d"
 
 "Biotech & Bioeng":
   url: https://onlinelibrary.wiley.com/journal/10970290
   color: "#00ab37"
+  text_color: "#1c1c1d"
 
 "Elsevier":
   url: https://www.elsevier.com/
   color: "#f29105"
+  text_color: "#1c1c1d"
 
 "ACM MM":
   url: https://www.acmmm.org/

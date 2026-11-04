@@ -1089,17 +1089,23 @@ footer.sticky-bottom {
       .abbr {
         margin-bottom: 0.5rem;
 
+        // A venue without a color in _data/venues.yml is theme green, with the theme's text on green:
+        // white in light mode and dark in dark mode, where white on the light green is 2.2:1.
+        // bib.liquid sets --venue-text-color on the badges that have a color: white, or the venue's
+        // text_color. MDB makes all badge text white with !important.
         abbr {
           display: inline-block;
+          color: var(--venue-text-color, var(--global-hover-text-color)) !important;
           background-color: var(--global-theme-color);
           margin-bottom: 0.5rem;
 
-          a {
-            color: white;
+          a,
+          div {
+            color: inherit;
+          }
 
-            &:hover {
-              text-decoration: none;
-            }
+          a:hover {
+            text-decoration: none;
           }
         }
 
