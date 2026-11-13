@@ -107,7 +107,7 @@ I am passionate about mentoring the next generation of researchers , preferrably
           <div class="flex-grow-1">
             <h5 class="mb-1">Abu Sa-Adat Mohamed Moon-Im Al Ahsan</h5>
             <p class="text-muted small mb-2">Researcher · BRAC University · 2021 – Present</p>
-            <p class="mb-2">Co-author on private federated continual learning over LM embeddings and spectral-guided diffusion inference acceleration.</p>
+            <p class="mb-2">Co-author on Canonicalized Stable-List Replay for Private Federated Continual Learning over Language-Model Embeddings, accepted at EACL 2027 (Findings), and on spectral-guided diffusion inference acceleration.</p>
             <div class="skill-tags">
               <span class="badge badge-light">Federated Learning</span>
               <span class="badge badge-light">Diffusion</span>
