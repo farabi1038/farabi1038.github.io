@@ -6,7 +6,7 @@
     "email": "ibnfarabishihab@gmail.com",
     "phone": "+1-347-571-4757",
     "url": "https://farabi1038.github.io",
-    "summary": "Ph.D. in Computer Science specializing in AI, Computer Vision, Large Language Models, and Transportation Systems. Experienced researcher and educator with publications in premier venues including ICML, ACL, CVPR, BMVC, EMNLP, ECAI, ITSC, and IEEE T-ITS. Expertise in quantum computing applications, reinforcement learning, and synthetic data generation.",
+    "summary": "Ph.D. in Computer Science specializing in AI, Computer Vision, Large Language Models, and Transportation Systems. Experienced researcher and educator with publications in premier venues including NeurIPS, ICML, ACL, CVPR, BMVC, EMNLP, EACL, ECAI, ITSC, and IEEE T-ITS. Expertise in quantum computing applications, reinforcement learning, and synthetic data generation.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -170,6 +170,41 @@
     }
   ],
   "publications": [
+    {
+      "name": "FlowNeg: GFlowNet-Guided Diverse Hard Negative Sampling for Knowledge Graph Embedding",
+      "publisher": "EACL 2027 Main Conference",
+      "releaseDate": "2027",
+      "url": "https://arxiv.org/abs/2608.23849",
+      "summary": "Accepted to EACL 2027 Main Conference"
+    },
+    {
+      "name": "Canonicalized Stable-List Replay for Private Federated Continual Learning over Language-Model Embeddings",
+      "publisher": "Findings of EACL 2027",
+      "releaseDate": "2027",
+      "url": "https://arxiv.org/abs/2606.00426",
+      "summary": "Accepted to Findings of EACL 2027"
+    },
+    {
+      "name": "When Is Benchmark Contamination Detectable? Information Limits and Power-Calibrated Audits",
+      "publisher": "Findings of EACL 2027",
+      "releaseDate": "2027",
+      "url": "https://arxiv.org/abs/2608.07914",
+      "summary": "Accepted to Findings of EACL 2027"
+    },
+    {
+      "name": "Selective Risk Certification for LLM Outputs via Information-Lift Statistics: PAC-Bayes, Robustness, and Skeleton Design",
+      "publisher": "Findings of EACL 2027",
+      "releaseDate": "2027",
+      "url": "https://arxiv.org/abs/2509.12527",
+      "summary": "Accepted to Findings of EACL 2027"
+    },
+    {
+      "name": "Calibrated Adaptation: Bayesian Stiefel Manifold Priors for Reliable Parameter-Efficient Fine-Tuning",
+      "publisher": "Findings of EACL 2027",
+      "releaseDate": "2027",
+      "url": "https://arxiv.org/abs/2602.17809",
+      "summary": "Accepted to Findings of EACL 2027"
+    },
     {
       "name": "Sparsifying Correlation Clustering: Edge Coresets, Triangle Witnesses, and Observation Lower Bounds",
       "publisher": "NeurIPS 2026",
