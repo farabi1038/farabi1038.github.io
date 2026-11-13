@@ -195,8 +195,8 @@ I am an **Applied Scientist at Amazon** and recently completed my **Ph.D. in Com
       <div class="card-body">
         <div class="stat-icon"><i class="fas fa-trophy text-warning"></i></div>
         <h3 class="card-title font-weight-bold">Publications</h3>
-        <p class="card-text text-muted">NeurIPS (3), ICML (4), EMNLP (4), ACL (3), EACL (5), BMVC (2)</p>
-        <p class="card-text text-muted">CVPR, ITSC (2), T-ITS, JSR, ECAI, EMNLP 2025 (2)</p>
+        <p class="card-text text-muted">NeurIPS (3), ICML (4), EMNLP (6), ACL (3), EACL (5), BMVC (2)</p>
+        <p class="card-text text-muted">CVPR, ITSC (4), T-ITS, JSR, ECAI</p>
         <span class="badge badge-success mt-2">2025-2027</span>
       </div>
     </div>
