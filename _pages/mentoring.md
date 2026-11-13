@@ -171,7 +171,7 @@ I am passionate about mentoring the next generation of researchers , preferrably
           <div class="flex-grow-1">
             <h5 class="mb-1">Naoshin Anzum Hridi</h5>
             <p class="text-muted small mb-2">M.S. Student, Computer Science and Engineering · BRAC University · 2026</p>
-            <p class="mb-2">Co-author on FlowNeg: GFlowNet-Guided Diverse Hard Negative Sampling for Knowledge Graph Embedding.</p>
+            <p class="mb-2">Co-author on FlowNeg: GFlowNet-Guided Diverse Hard Negative Sampling for Knowledge Graph Embedding, accepted at EACL 2027.</p>
             <div class="skill-tags">
               <span class="badge badge-light">GFlowNets</span>
               <span class="badge badge-light">KG Embedding</span>
