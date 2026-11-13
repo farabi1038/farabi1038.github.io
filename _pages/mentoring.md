@@ -25,13 +25,14 @@ I am passionate about mentoring the next generation of researchers , preferrably
           <div class="flex-grow-1">
             <h5 class="mb-1">Sanjeda Akter</h5>
             <p class="text-muted small mb-2">M.S. Student, Computer Science · Iowa State University · 2025 – Present</p>
-            <p class="mb-2">Co-author on 10+ submissions in 2026 spanning LLMs, reinforcement learning, calibration, and conformal prediction. Frequent collaborator on ICML, ACL, and NeurIPS projects.</p>
+            <p class="mb-2">Co-author on 10+ submissions in 2026 spanning LLMs, reinforcement learning, calibration, and conformal prediction, including three papers accepted at EACL 2027 (Findings): Selective Risk Certification for LLM Outputs (first author), Calibrated Adaptation, and When Is Benchmark Contamination Detectable? Frequent collaborator on ICML, ACL, and NeurIPS projects.</p>
             <div class="skill-tags">
               <span class="badge badge-light">LLMs</span>
               <span class="badge badge-light">RL</span>
               <span class="badge badge-light">Calibration</span>
               <span class="badge badge-light">ACL 2026</span>
               <span class="badge badge-light">ICML 2026</span>
+              <span class="badge badge-light">EACL 2027</span>
             </div>
           </div>
         </div>
@@ -47,7 +48,7 @@ I am passionate about mentoring the next generation of researchers , preferrably
           <div class="flex-grow-1">
             <h5 class="mb-1">Md Muzakker Hossain</h5>
             <p class="text-muted small mb-2">Ph.D. Student, Computer Science · Iowa State University · 2023 – Present</p>
-            <p class="mb-2">Research focus on LLMs for compiler optimization, ML compilers, and high-performance computing. Co-author on parameter-efficient fine-tuning research.</p>
+            <p class="mb-2">Research focus on LLMs for compiler optimization, ML compilers, and high-performance computing. Co-author on Calibrated Adaptation: Bayesian Stiefel Manifold Priors for Reliable Parameter-Efficient Fine-Tuning, accepted at EACL 2027 (Findings).</p>
             <div class="skill-tags">
               <span class="badge badge-light">LLM Compilers</span>
               <span class="badge badge-light">HPC</span>
