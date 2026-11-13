@@ -67,15 +67,7 @@ Working on agentic bot systems.
 
 **Calibration-Preserving Pruning: Compression as a Reliability Contract** (with A. B. Habib, Anuj Sharma)
 
-**Selective Risk Certification for LLM Outputs via Information-Lift Statistics: PAC-Bayes, Robustness, and Skeleton Design** (with Sanjeda Akter, Anuj Sharma)<br>
-[arXiv:2509.12527](https://arxiv.org/abs/2509.12527)
-
 **Spectral-Guided Diffusion: Accelerating Inference via Static Spectral Layer Scheduling** (with Abu Sa-Adat Mohamed Moon-Im Al Ahsan, Anuj Sharma)
-
-**Canonicalized Stable-List Replay for Private Federated Continual Learning over Language-Model Embeddings** (with Abu Sa-Adat Mohamed Moon-Im Al Ahsan, Anuj Sharma)
-
-**Calibrated Adaptation: Bayesian Stiefel Manifold Priors for Reliable Parameter-Efficient Fine-Tuning** (with Sanjeda Akter, M. M. Hossain, Anuj Sharma)<br>
-[arXiv:2602.17809](https://arxiv.org/abs/2602.17809)
 
 **Accuracy Gaps Warn but Do Not Certify: Cross-Domain Recalibration of LLM Judges** (with Fariya Afrin)
 
@@ -83,14 +75,7 @@ Working on agentic bot systems.
 
 **Evaluator Ensembles Under Reward Hacking: Covariance Geometry and Finite-Search Guarantees** (with Fariya Afrin)
 
-**Quality-Diversity Stress Tests for Process Reward Models: What Archive Coverage Can and Cannot Certify** (with Fariya Afrin)
-
-**Task-Aware Spectral Pruning: A Mixture-of-Masks Framework for Efficient LLM Inference** (with Fariya Afrin, Sanjeda Akter, Anuj Sharma)
-
 **Spectral Tail Interventions in Language Models: Reasoning-Sensitive Weight Structure from Controlled Surgery** (with Sanjeda Akter, M. N. Swaqeeb, Abu Sa-Adat Mohamed Moon-Im Al Ahsan, Anuj Sharma)
-
-**Learning to Forget Attention: Memory Consolidation for Adaptive Compute Reduction** (with Sanjeda Akter, Anuj Sharma)  
-[arXiv:2602.12204](https://arxiv.org/abs/2602.12204)
 
 **CODS: Iterative Bellman-Residual Data Selection for Reusable Offline Reinforcement Learning** (with Sanjeda Akter, Abu Sa-Adat Mohamed Moon-Im Al Ahsan, M. N. Swaqeeb, Anuj Sharma)
 
@@ -103,13 +88,20 @@ Working on agentic bot systems.
 
 **Private Anytime Selective-Risk Certification for Federated Retrieval-Augmented Generation: Guarantees and Empirical Limits** (with Sanjeda Akter, Anuj Sharma)
 
-**FlowNeg: GFlowNet-Guided Diverse Hard Negative Sampling for Knowledge Graph Embedding** (with N. A. Hridi, Joyanta J. Mondal)
-
 **Opportunity Is Not Realizability: Selection-Valid Diagnostics for Multi-LLM Routing** (with Abu Sa-Adat Mohamed Moon-Im Al Ahsan, M. N. Swaqeeb)
 
-**StepCOPS: Closed-Testing Lower-Tail Certificates for Language-Model Policy Selection** (with Sanjeda Akter, Anuj Sharma)
+---
 
-**When Is Benchmark Contamination Detectable? Information Limits and Power-Calibrated Audits** (with Sanjeda Akter, Anuj Sharma)
+### Planned for ACL 2027
+
+**Quality-Diversity Stress Tests for Process Reward Models: What Archive Coverage Can and Cannot Certify** (with Fariya Afrin)
+
+**Task-Aware Spectral Pruning: A Mixture-of-Masks Framework for Efficient LLM Inference** (with Fariya Afrin, Sanjeda Akter, Anuj Sharma)
+
+**Learning to Forget Attention: Memory Consolidation for Adaptive Compute Reduction** (with Sanjeda Akter, Anuj Sharma)  
+[arXiv:2602.12204](https://arxiv.org/abs/2602.12204)
+
+**StepCOPS: Closed-Testing Lower-Tail Certificates for Language-Model Policy Selection** (with Sanjeda Akter, Anuj Sharma)
 
 ---
 
