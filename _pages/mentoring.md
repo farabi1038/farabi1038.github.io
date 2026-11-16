@@ -25,7 +25,22 @@ I am passionate about mentoring the next generation of researchers , preferrably
           <div class="flex-grow-1">
             <h5 class="mb-1">Sanjeda Akter</h5>
             <p class="text-muted small mb-2">M.S. Student, Computer Science · Iowa State University · 2025 – Present</p>
-            <p class="mb-2">Co-author on 10+ submissions in 2026 spanning LLMs, reinforcement learning, calibration, and conformal prediction, including three papers accepted at EACL 2027 (Findings): Selective Risk Certification for LLM Outputs (first author), Calibrated Adaptation, and When Is Benchmark Contamination Detectable? Frequent collaborator on ICML, ACL, and NeurIPS projects.</p>
+            <p class="mb-2">Research spanning LLMs, reinforcement learning, calibration, and conformal prediction.</p>
+            <ul class="list-unstyled small mb-2 mentee-papers">
+              <li><strong>EACL 2027 Findings:</strong> Benchmark Contamination Detectability · Selective Risk Certification · Calibrated Adaptation</li>
+              <li><strong>NeurIPS 2026:</strong> Sparsifying Correlation Clustering · Coverage-Based PTQ Calibration · Range-Partition Entropy</li>
+              <li><strong>EMNLP 2026:</strong> EST-PRM · Spectral DPO</li>
+              <li><strong>EMNLP 2026 Findings:</strong> Counterfactual Sensitivity Regularization · Grounded Decoding</li>
+              <li><strong>BMVC 2026:</strong> HybridMamba · Temporal Zoom Networks</li>
+              <li><strong>ICML 2026:</strong> CalPro · Policy-Aware Matrix Completion · CGRiC · Certificate-Guided Pruning</li>
+              <li><strong>IEEE T-ITS:</strong> LLM Image Segmentation Survey</li>
+              <li><strong>IEEE ITSC 2026:</strong> Crash Classifier Spectral Diagnostics · LLM-Guided Signal Synchronization</li>
+              <li><strong>CVPR 2026:</strong> LLM-Guided Layout Analysis</li>
+              <li><strong>ACL 2026:</strong> Adaptive Constraint Propagation · Fisher-Aligned LLM Compression</li>
+              <li><strong>ACL 2026 Findings:</strong> Proxy Gaming Detection</li>
+              <li><strong>ECAI 2025:</strong> HMAE</li>
+              <li><strong>EMNLP 2025:</strong> Mamba Unstructured Pruning · Cache-Efficient Posterior Sampling</li>
+            </ul>
             <div class="skill-tags">
               <span class="badge badge-light">LLMs</span>
               <span class="badge badge-light">RL</span>
@@ -48,7 +63,10 @@ I am passionate about mentoring the next generation of researchers , preferrably
           <div class="flex-grow-1">
             <h5 class="mb-1">Md Muzakker Hossain</h5>
             <p class="text-muted small mb-2">Ph.D. Student, Computer Science · Iowa State University · 2023 – Present</p>
-            <p class="mb-2">Research focus on LLMs for compiler optimization, ML compilers, and high-performance computing. Co-author on Calibrated Adaptation: Bayesian Stiefel Manifold Priors for Reliable Parameter-Efficient Fine-Tuning, accepted at EACL 2027 (Findings).</p>
+            <p class="mb-2">Research focus on LLMs for compiler optimization, ML compilers, and high-performance computing.</p>
+            <ul class="list-unstyled small mb-2 mentee-papers">
+              <li>Calibrated Adaptation — EACL 2027 Findings</li>
+            </ul>
             <div class="skill-tags">
               <span class="badge badge-light">LLM Compilers</span>
               <span class="badge badge-light">HPC</span>
@@ -68,7 +86,11 @@ I am passionate about mentoring the next generation of researchers , preferrably
           <div class="flex-grow-1">
             <h5 class="mb-1">Fariya Afrin</h5>
             <p class="text-muted small mb-2">Researcher, Computer Engineering · Kalinga Institute of Industrial Technology · 2021 – 2026</p>
-            <p class="mb-2">Co-author on multiple ACL ARR 2026 submissions including process reward model stress-testing, spectral pruning for LLMs, retrieval-anchored decoding, and continual instruction tuning.</p>
+            <p class="mb-2">Research on process reward model stress-testing, spectral pruning for LLMs, retrieval-anchored decoding, and continual instruction tuning.</p>
+            <ul class="list-unstyled small mb-2 mentee-papers">
+              <li>EST-PRM — EMNLP 2026</li>
+              <li>Grounded Decoding — EMNLP 2026 Findings</li>
+            </ul>
             <div class="skill-tags">
               <span class="badge badge-light">LLMs</span>
               <span class="badge badge-light">NLP</span>
@@ -108,7 +130,10 @@ I am passionate about mentoring the next generation of researchers , preferrably
           <div class="flex-grow-1">
             <h5 class="mb-1">Abu Sa-Adat Mohamed Moon-Im Al Ahsan</h5>
             <p class="text-muted small mb-2">Researcher · BRAC University · 2021 – Present</p>
-            <p class="mb-2">Co-author on Canonicalized Stable-List Replay for Private Federated Continual Learning over Language-Model Embeddings, accepted at EACL 2027 (Findings), and on spectral-guided diffusion inference acceleration.</p>
+            <p class="mb-2">Research on private federated continual learning and spectral-guided diffusion inference acceleration.</p>
+            <ul class="list-unstyled small mb-2 mentee-papers">
+              <li>Canonicalized Stable-List Replay — EACL 2027 Findings</li>
+            </ul>
             <div class="skill-tags">
               <span class="badge badge-light">Federated Learning</span>
               <span class="badge badge-light">Diffusion</span>
@@ -172,7 +197,10 @@ I am passionate about mentoring the next generation of researchers , preferrably
           <div class="flex-grow-1">
             <h5 class="mb-1">Naoshin Anzum Hridi</h5>
             <p class="text-muted small mb-2">M.S. Student, Computer Science and Engineering · BRAC University · 2026</p>
-            <p class="mb-2">Co-author on FlowNeg: GFlowNet-Guided Diverse Hard Negative Sampling for Knowledge Graph Embedding, accepted at EACL 2027.</p>
+            <p class="mb-2">Research on GFlowNet-guided hard negative sampling for knowledge graph embedding.</p>
+            <ul class="list-unstyled small mb-2 mentee-papers">
+              <li>FlowNeg — EACL 2027</li>
+            </ul>
             <div class="skill-tags">
               <span class="badge badge-light">GFlowNets</span>
               <span class="badge badge-light">KG Embedding</span>
