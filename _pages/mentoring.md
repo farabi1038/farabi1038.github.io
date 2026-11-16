@@ -17,7 +17,7 @@ I am passionate about mentoring the next generation of researchers , preferrably
 
 <div class="row mt-4">
 
-  <div class="col-md-6 mb-4">
+  <div class="col-md-12 mb-4">
     <div class="card shadow-sm hover-card h-100">
       <div class="card-body">
         <div class="d-flex align-items-start">
@@ -26,7 +26,7 @@ I am passionate about mentoring the next generation of researchers , preferrably
             <h5 class="mb-1">Sanjeda Akter</h5>
             <p class="text-muted small mb-2">M.S. Student, Computer Science · Iowa State University · 2025 – Present</p>
             <p class="mb-2">Research spanning LLMs, reinforcement learning, calibration, and conformal prediction.</p>
-            <ul class="list-unstyled small mb-2 mentee-papers">
+            <ul class="list-unstyled small mb-2 mentee-papers mentee-papers-columns">
               <li><strong>EACL 2027 Findings:</strong> Benchmark Contamination Detectability · Selective Risk Certification · Calibrated Adaptation</li>
               <li><strong>NeurIPS 2026:</strong> Sparsifying Correlation Clustering · Coverage-Based PTQ Calibration · Range-Partition Entropy</li>
               <li><strong>EMNLP 2026:</strong> EST-PRM · Spectral DPO</li>

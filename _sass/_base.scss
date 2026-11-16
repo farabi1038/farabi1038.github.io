@@ -1806,3 +1806,16 @@ ninja-keys::part(ninja-input-wrapper) {
   background-color: var(--global-theme-color);
   color: var(--global-hover-text-color);
 }
+
+// Mentoring page: a long paper list on a full-width mentee card flows into two columns on wide
+// screens and stays one column on small ones.
+@media (min-width: 992px) {
+  .mentee-papers-columns {
+    column-count: 2;
+    column-gap: 2rem;
+
+    li {
+      break-inside: avoid;
+    }
+  }
+}
