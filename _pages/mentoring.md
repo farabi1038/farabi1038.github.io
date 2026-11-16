@@ -111,7 +111,12 @@ I am passionate about mentoring the next generation of researchers , preferrably
           <div class="flex-grow-1">
             <h5 class="mb-1">Adria Binte Habib</h5>
             <p class="text-muted small mb-2">Researcher, CSE · Independent University, Bangladesh · 2025 – 2026</p>
-            <p class="mb-2">Co-author on calibration-preserving pruning research, framing model compression as a reliability contract.</p>
+            <p class="mb-2">Research on calibration-preserving pruning, framing model compression as a reliability contract.</p>
+            <ul class="list-unstyled small mb-2 mentee-papers">
+              <li>Voting Classifier Margin Certificates — AAAI 2027 (under review)</li>
+              <li>Cost of Adaptivity — AAAI 2027 (under review)</li>
+              <li>Calibration-Preserving Pruning — NAACL 2027 (under review)</li>
+            </ul>
             <div class="skill-tags">
               <span class="badge badge-light">Model Compression</span>
               <span class="badge badge-light">Calibration</span>
@@ -153,7 +158,11 @@ I am passionate about mentoring the next generation of researchers , preferrably
           <div class="flex-grow-1">
             <h5 class="mb-1">Md Najmus Swaqeeb</h5>
             <p class="text-muted small mb-2">Researcher · BRAC University · 2025 – Present<br>System Analyst, IT · Standard Chartered · 2019 – Present</p>
-            <p class="mb-2">Co-author on calibrated speculative decoding, working on risk-certified speed–quality tradeoffs for LLM inference.</p>
+            <p class="mb-2">Research on calibrated speculative decoding and risk-certified speed–quality tradeoffs for LLM inference.</p>
+            <ul class="list-unstyled small mb-2 mentee-papers">
+              <li><strong>AAAI 2027 (under review):</strong> Certified Value-of-Advice Gating · Auditing RL Explanations · Average-Reward Regret Certificates · Adversary-Aligned Error Propagation</li>
+              <li><strong>NAACL 2027 (under review):</strong> Spectral Tail Interventions · CODS · Stateful CARS · Multi-LLM Routing Diagnostics</li>
+            </ul>
             <div class="skill-tags">
               <span class="badge badge-light">LLM Inference</span>
               <span class="badge badge-light">Speculative Decoding</span>
@@ -178,7 +187,10 @@ I am passionate about mentoring the next generation of researchers , preferrably
           <div class="flex-grow-1">
             <h5 class="mb-1">Rabeya Bosri Tamanna</h5>
             <p class="text-muted small mb-2">M.S. Student, Computer Science and Engineering · BRAC University · 2026</p>
-            <p class="mb-2">Co-author on BLADE: Distilled LLM Regularization for Calibrated Knowledge Graph Completion. Worked on calibration and probabilistic methods.</p>
+            <p class="mb-2">Worked on calibration and probabilistic methods.</p>
+            <ul class="list-unstyled small mb-2 mentee-papers">
+              <li>BLADE — NAACL 2027 (under review)</li>
+            </ul>
             <div class="skill-tags">
               <span class="badge badge-light">Knowledge Graphs</span>
               <span class="badge badge-light">LLM Distillation</span>
