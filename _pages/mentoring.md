@@ -173,6 +173,30 @@ I am passionate about mentoring the next generation of researchers , preferrably
     </div>
   </div>
 
+  <div class="col-md-6 mb-4">
+    <div class="card shadow-sm hover-card h-100">
+      <div class="card-body">
+        <div class="d-flex align-items-start">
+          <i class="fas fa-user fa-2x text-primary mr-3 mt-1"></i>
+          <div class="flex-grow-1">
+            <h5 class="mb-1">Joyanta Jyoti Mondal</h5>
+            <p class="text-muted small mb-2">Computer and Information Sciences · University of Delaware · 2022 – Present</p>
+            <p class="mb-2">Research on GFlowNet-guided negative sampling for knowledge graph embedding, graph-based and fair contextual bandits, and scalable bisimulation metrics.</p>
+            <ul class="list-unstyled small mb-2 mentee-papers">
+              <li>FlowNeg — EACL 2027</li>
+              <li>Waste Water Fault Detection — ICCIT 2022</li>
+            </ul>
+            <div class="skill-tags">
+              <span class="badge badge-light">GFlowNets</span>
+              <span class="badge badge-light">KG Embedding</span>
+              <span class="badge badge-light">Contextual Bandits</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </div>
 
 ### Previous Mentees
